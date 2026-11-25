@@ -6,7 +6,9 @@ right refer to **the character's own sides**, not the viewer's. These are the
 five images used in the recorded experiment, not newly generated replacements.
 
 The input is a render of Blender Studio's Rain v3 character. The four views were
-prepared with AI assistance during this project's reference stage. They are
+prepared using Codex's built-in ImageGen during this project's reference stage.
+The front view's framing and the left view's ponytail were revised against the
+other views. They are
 interpretations of the input; they are not official Blender Studio turnarounds
 or exact renders of the original model.
 

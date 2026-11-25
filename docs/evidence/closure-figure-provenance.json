@@ -1,0 +1,162 @@
+{
+  "file": "closure-comparison.en.png",
+  "sha256": "f1515e2e48f0bfe70c5b094d18c5348821ce007afa411e18078aff30b399f0e4",
+  "method": "New English scientific layouts from source renders and documented viewport extracts; no generative image alteration. Storyboard controls are explicitly schematic.",
+  "panels": [
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        28,
+        141,
+        514,
+        546
+      ],
+      "target_box": [
+        110,
+        65,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        526,
+        141,
+        1012,
+        546
+      ],
+      "target_box": [
+        665,
+        65,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        1024,
+        141,
+        1510,
+        546
+      ],
+      "target_box": [
+        1220,
+        65,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        28,
+        591,
+        514,
+        996
+      ],
+      "target_box": [
+        110,
+        545,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        526,
+        591,
+        1012,
+        996
+      ],
+      "target_box": [
+        665,
+        545,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        1024,
+        591,
+        1510,
+        996
+      ],
+      "target_box": [
+        1220,
+        545,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        28,
+        1041,
+        514,
+        1446
+      ],
+      "target_box": [
+        110,
+        1025,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        526,
+        1041,
+        1012,
+        1446
+      ],
+      "target_box": [
+        665,
+        1025,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        1024,
+        1041,
+        1510,
+        1446
+      ],
+      "target_box": [
+        1220,
+        1025,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    }
+  ],
+  "metrics_source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/back_refit_321ffb95/tripo_cloud_cap/comparison_metrics.json",
+  "topology_source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/back_refit_321ffb95/tripo_cloud_cap/alignment.json"
+}

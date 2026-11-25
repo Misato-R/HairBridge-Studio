@@ -1,0 +1,38 @@
+{
+  "method": "Tripo Studio Simple segmentation and Quick Cap across all six parts",
+  "raw": {
+    "welded_vertices": 19149,
+    "face_components": [
+      15768,
+      10900,
+      5637,
+      2438,
+      2082,
+      1480
+    ],
+    "largest_component_percent": 41.16433885915677,
+    "edges_used_by_one_face": 12,
+    "edges_used_by_more_than_two_faces": 24
+  },
+  "aligned": {
+    "welded_vertices": 19149,
+    "face_components": [
+      15768,
+      10900,
+      5637,
+      2438,
+      2082,
+      1480
+    ],
+    "largest_component_percent": 41.16433885915677,
+    "edges_used_by_one_face": 12,
+    "edges_used_by_more_than_two_faces": 24
+  },
+  "scale": 0.9384765624999998,
+  "translation": [
+    -0.005371101200580597,
+    0.18896474753273645,
+    -0.030517578125
+  ],
+  "source_vertex_p95_mm": 0.015795640942455287
+}

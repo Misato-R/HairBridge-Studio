@@ -1,6 +1,6 @@
 # HairBridge Studio
 
-README prose word count: 802 (excluding setup commands and URL targets).
+README prose word count: 779 (excluding headings, metadata, code blocks, image captions and URL targets).
 
 A local workspace and Blender companion for turning generated character hair
 into editable guides and SHP geometry. Review references, check separated hair,
@@ -74,6 +74,8 @@ The images and geometry derive from Blender Studio's Rain character and the
 project's AI-assisted reference/Tripo experiments. **Rain Rig (CC) Blender
 Foundation | studio.blender.org.** See [provenance and credit](examples/rain-study/README.md).
 AI views are interpretations, not official Blender Studio turnarounds.
+The four views were prepared with Codex's built-in ImageGen; the framing and
+ponytail were revised for consistency before the modelling stage.
 
 ## Review workflow
 
@@ -118,6 +120,7 @@ The selected example completed the main workflow; coverage and neighbouring
 strand intersections still require visual review. General hairstyle performance,
 editing-time benefits and participant usability are untested. See
 [validation](docs/validation.md), [submission evidence](docs/submission-validation.zh-CN.md),
+[additional closure comparison](docs/evidence/closure-comparison.md),
 [curve-system design](docs/curve-system.zh-CN.md) and
 [interaction design](docs/interaction-design.zh-CN.md).
 

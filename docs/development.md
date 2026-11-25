@@ -49,3 +49,18 @@ The add-on UI wrappers translate visible labels and RNA display names without re
 ## 2026-11-25 — Portable GitHub hand-in
 
 Added a five-image Rain input set and a cleaned seven-guide project template, study-specific surface fixture, geometry and section state. Fresh imports use new project IDs; private task text and final approvals are excluded. The sample no longer needs the original assignment directory. Installer downloads use the committed ZIPs. Added bundle verification, a disposable Blender verification launcher and GitHub checks. A Git-index-only export passed all 34 automated checks, bundle verification and isolated Blender installation/build/edit-restore/reopen. See release-verification.json for the exact scope.
+
+## 2026-11-25 — Report evidence reconciliation after v0.1.0-a2
+
+The report review identified a documentation gap: the later local/cloud closure
+comparison was supplied with the report source, outside the fixed release.
+Added an English comparison note, the original numerical records, and its
+English-labelled figure and provenance. The note distinguishes a 5.5305%
+relative reduction in rear-left exposed scalp from a 0.2492 percentage-point
+absolute reduction, and retains the remaining openings and depth trade-off.
+No runtime code, installers or fixed release tag were changed.
+
+The sample provenance now names Codex's built-in ImageGen and the recorded
+framing/ponytail revisions. The current 34 Node checks and bundle verification
+passed again. The original isolated Blender check is retained as historical
+evidence; this documentation review did not rerun Blender or paid generation.
