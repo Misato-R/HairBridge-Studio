@@ -8,7 +8,7 @@ refine regions and guides, adjust cross-sections, then build and review the resu
 in Blender. The interface defaults to English; use **中文 / English** in the top
 bar to switch. Your language choice is remembered.
 
-![English workspace](docs/english-workflow.jpg)
+![English workspace](docs/english-workflow.png)
 
 ## Start
 
