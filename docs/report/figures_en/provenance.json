@@ -456,7 +456,7 @@
         20,
         80,
         560,
-        440
+        408
       ],
       "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
     },
@@ -473,26 +473,43 @@
         615,
         80,
         560,
-        440
+        388
       ],
       "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
     },
     {
-      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\refit-controls.png",
-      "source_sha256": "b98d3e8f0e8f60e8b45c4324ee58e102463721fd7116a73519cb26b12887fbec",
+      "source": "HairBridge_Studio\\docs\\english-workflow.png",
+      "source_sha256": "7b9cffd5836a5a160cf9e0f993bc59be1f1ba506f088c3d63135a31bc674c659",
       "source_box": [
-        0,
-        24,
-        560,
-        584
+        2071,
+        288,
+        2508,
+        525
       ],
       "target_box": [
-        1210,
-        80,
-        560,
-        440
+        1230,
+        275,
+        520,
+        282
       ],
       "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "HairBridge_Studio\\docs\\evidence\\final-workflow.json",
+      "source_sha256": "5354ed4b50c664e55c105cd3def2fc0358f23b867e8446391d2253d8b1e27912",
+      "operation": "S2 text translates the saved receipt and adoption events for the seven rear guides.",
+      "recorded_events": [
+        {
+          "at": "2026-11-25T08:31:18.797Z",
+          "action": "\u6536\u5230\u91cd\u505a\u5bfc\u7ebf",
+          "detail": "\u540e\u8111 \u00b7 7 \u675f\u5f85\u5ba1\u6838"
+        },
+        {
+          "at": "2026-11-25T08:43:24.206Z",
+          "action": "\u91c7\u7528\u91cd\u505a\u5bfc\u7ebf",
+          "detail": "\u540e\u8111 \u00b7 7 \u675f"
+        }
+      ]
     },
     {
       "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\section-controls.png",

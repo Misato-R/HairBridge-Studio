@@ -86,7 +86,7 @@ def footer(canvas, doc):
     canvas.restoreState()
 
 doc = BaseDocTemplate(str(OUTPUT), pagesize=A4, leftMargin=18*mm, rightMargin=18*mm, topMargin=18*mm, bottomMargin=18*mm,
-                      title='HairBridge Studio A2 Project Report', author='LU WENXUAN')
+                      title='HairBridge Studio A2 Project Report', author='Developer')
 frame = Frame(18*mm, 18*mm, WIDTH, 261*mm, leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
 doc.addPageTemplates(PageTemplate(id='report', frames=frame, onPage=footer))
 text = SOURCE.read_text(encoding='utf-8')

@@ -26,7 +26,7 @@ SHP remains a separately installed dependency. A local `teacher-verification/` a
 
 ## AI assistance and authorship
 
-LU WENXUAN is the author of the project dataset preparation and construction, and of Surface Hair Curve Tool 0.1.0, developed with Codex assistance. This attribution was explicitly confirmed by the author on 2026-11-25. Dataset preparation includes the project materials and derived records; Rain source assets, external model weights and third-party software retain their original credits. Codex is acknowledged as an assistance tool.
+The developer prepared the project dataset and authored Surface Hair Curve Tool 0.1.0 with Codex assistance. The developer confirmed this attribution on 25 November 2026. Dataset preparation includes the project materials and derived records; Rain source assets, external model weights and third-party software retain their original credits. Codex is acknowledged as an assistance tool.
 
 Codex assisted with inspecting the earlier bridge and local environment, interpreting the user's integration proposal, authoring the new UI/server/adapters, identifying stale-input cases and running validation. The user chose the combined interface and Studio connection. The earlier experimental bridge and HairDeck frame math are identified separately from the new orchestration code.
 
@@ -38,17 +38,17 @@ Do not describe successful file conversion, tests or numerical checks as evidenc
 
 The author confirmed the selected-example workflow is complete. The report now uses actual mask-cleanup regression evidence, seven-strand replacement/adoption and saved output records, and the final project approval. The original E1/E3 design evidence remains; later UV-section comparisons explain tradeoffs between visible coverage and outward depth, without claiming every quality measure improves. Three illustrated storyboards distinguish web screenshots, offline geometry views and different trial runs.
 
-The 28-test suite was rerun successfully. A stale bridge entry in the installer was rebuilt from current source; the updated ZIP passed a fresh isolated Blender install/build/edit-restore/reopen check. The ignored teacher bundle and checksums were synchronised. Draw-hair seam and shape refinement is future scope. No live scene or existing project was edited during this report update. Public repository publication and English word-count finalisation remain hand-in tasks.
+The 28-test suite passed at this stage. The installer was rebuilt from current bridge source and passed an isolated Blender install, build, edit, restore and reopen check. The teacher bundle and checksums were synchronised. Draw-hair seam and shape refinement is future work. [Region cleanup checks](evidence/region-regression.json) · [Seven-guide project record](evidence/final-workflow.json) · [Isolated installer check](installer-functional-check.json).
 
 ## 2026-11-25 — English-facing bilingual product
 
 At the author's request, the workflow was localised for English-speaking modelling artists. The browser starts in English with an English/Chinese selector. Shared source vocabulary drives the UI, agent handoff text, errors and both author-developed Blender add-ons. Request-local language contexts keep simultaneous requests independent, and saved tasks retain bilingual instructions. UI switching retains editing state and freeform input; names, paths, IDs and geometry are not migrated. Project exports include opening instructions in the chosen language.
 
-The add-on UI wrappers translate visible labels and RNA display names without renaming node groups or saved data keys. The generated build receives the selected UI language. No third-party add-on code or global Blender language preference is changed. The updated installers and private teacher bundle are included; existing desktop installations must install the new ZIPs. A copied project was used for browser checks, and the final 32-test suite and isolated Blender language/build check passed.
+The add-on UI wrappers translate visible labels and RNA display names without renaming node groups or saved data keys. The generated build receives the selected UI language. No third-party add-on code or global Blender language preference is changed. The updated installers and private teacher bundle are included; existing desktop installations must install the new ZIPs. A copied project was used for browser checks, and all 32 tests at this stage and the isolated Blender language and build check passed. [Language verification](i18n-functional-check.json).
 
 ## 2026-11-25 — Portable GitHub hand-in
 
-Added a five-image Rain input set and a cleaned seven-guide project template, study-specific surface fixture, geometry and section state. Fresh imports use new project IDs; private task text and final approvals are excluded. The sample no longer needs the original assignment directory. Installer downloads use the committed ZIPs. Added bundle verification, a disposable Blender verification launcher and GitHub checks. A Git-index-only export passed all 34 automated checks, bundle verification and isolated Blender installation/build/edit-restore/reopen. See release-verification.json for the exact scope.
+Added a five-image Rain input set and a cleaned seven-guide project template, study-specific surface fixture, geometry and section state. Fresh imports use new project IDs; private task text and final approvals are excluded. The sample no longer needs the original assignment directory. Installer downloads use the committed ZIPs. Added bundle verification, a disposable Blender verification launcher and GitHub checks. A clean export passed all 34 automated checks, bundle verification and isolated Blender installation, build, edit, restore and reopen. [Release commit](https://github.com/Misato-R/HairBridge-Studio/commit/5df5f1383f38d87e0148a34529e5b7cb841050a2) · [Verification results](release-verification.json).
 
 ## 2026-11-25 — Report evidence reconciliation after v0.1.0-a2
 
@@ -64,3 +64,4 @@ The sample provenance now names Codex's built-in ImageGen and the recorded
 framing/ponytail revisions. The current 34 Node checks and bundle verification
 passed again. The original isolated Blender check is retained as historical
 evidence; this documentation review did not rerun Blender or paid generation.
+[Closure evidence commit](https://github.com/Misato-R/HairBridge-Studio/commit/ed3c27b6880f0c02220deaf92617b16db83e13b7) · [Comparison and limitations](evidence/closure-comparison.md).

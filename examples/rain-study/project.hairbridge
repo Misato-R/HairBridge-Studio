@@ -11,8 +11,8 @@
     "role": "source-reference",
     "name": "rain_original.png",
     "file": "references/source.png",
-    "bytes": 401540,
-    "sha256": "25e91547df92ca74d7c2b9c49f23c463d1c5e8a7d5afb7f62bd53531ed6314cd",
+    "bytes": 401424,
+    "sha256": "c9b8c06e2c48ef5b8ae44b9101a214b085ba0d79101e5a2d64351bd633bdb137",
     "createdAt": "2026-11-23T23:36:02.658Z",
     "url": "/api/projects/f46db7b7-c5c4-4274-96cd-fcc7f4eb4349/assets/f2983184-4d75-4e67-b5ca-a085a0b3a4c3"
   },
@@ -119,7 +119,7 @@
     "method": "smart-mesh-p2",
     "origin": "agent",
     "requestId": "5242eb50-9478-4286-b42a-2c2778f49a30",
-    "referenceStamp": "226eb4092b4b221bbc3c18c7f074c0dda361fe4dfdea7069bdc3454e53f966ec"
+    "referenceStamp": "138e60689c15c58e9a2c5b6c44335478f85c4f5ab9b80ba9a8345937168c287a"
   },
   "pointFlow": {
     "version": 1,
@@ -148699,7 +148699,7 @@
     },
     "draft": {
       "at": "2026-11-25T09:53:50.909Z",
-      "stamp": "7ee06a3c2add49f1cfd2ea35213ecf993bb6c6560c27d1268c2d3c46122c1dff"
+      "stamp": "2e89054598ba33df5f3d59586f90d8d2acc793d127ac3770fdd88c4766b323b2"
     }
   },
   "separation": {
@@ -148715,7 +148715,7 @@
       "method": "smart-mesh-p2",
       "origin": "agent",
       "requestId": "5242eb50-9478-4286-b42a-2c2778f49a30",
-      "referenceStamp": "226eb4092b4b221bbc3c18c7f074c0dda361fe4dfdea7069bdc3454e53f966ec",
+      "referenceStamp": "138e60689c15c58e9a2c5b6c44335478f85c4f5ab9b80ba9a8345937168c287a",
       "modelId": "6dfca879-f5ad-4638-aa53-7c725150ccc2",
       "modelSha256": "96c0df7b3c15770fedf958c60bf000f357a164c6e91533ffbdcb35481634c75c"
     },
@@ -148731,7 +148731,7 @@
       "method": "smart-mesh-p2",
       "origin": "agent",
       "requestId": "5242eb50-9478-4286-b42a-2c2778f49a30",
-      "referenceStamp": "226eb4092b4b221bbc3c18c7f074c0dda361fe4dfdea7069bdc3454e53f966ec",
+      "referenceStamp": "138e60689c15c58e9a2c5b6c44335478f85c4f5ab9b80ba9a8345937168c287a",
       "modelId": "6dfca879-f5ad-4638-aa53-7c725150ccc2",
       "modelSha256": "96c0df7b3c15770fedf958c60bf000f357a164c6e91533ffbdcb35481634c75c"
     },
@@ -148740,7 +148740,7 @@
       "at": "2026-11-24T00:44:39.732Z",
       "modelId": "6dfca879-f5ad-4638-aa53-7c725150ccc2",
       "modelSha256": "96c0df7b3c15770fedf958c60bf000f357a164c6e91533ffbdcb35481634c75c",
-      "referenceStamp": "226eb4092b4b221bbc3c18c7f074c0dda361fe4dfdea7069bdc3454e53f966ec",
+      "referenceStamp": "138e60689c15c58e9a2c5b6c44335478f85c4f5ab9b80ba9a8345937168c287a",
       "headId": "79efe538-da21-486b-9dcc-96083904e1a0",
       "hairId": "70a72806-89ca-45f4-ba07-5473f0029578"
     },
@@ -148758,8 +148758,8 @@
       "role": "source-reference",
       "name": "rain_original.png",
       "file": "references/source.png",
-      "bytes": 401540,
-      "sha256": "25e91547df92ca74d7c2b9c49f23c463d1c5e8a7d5afb7f62bd53531ed6314cd",
+      "bytes": 401424,
+      "sha256": "c9b8c06e2c48ef5b8ae44b9101a214b085ba0d79101e5a2d64351bd633bdb137",
       "createdAt": "2026-11-23T23:36:02.658Z",
       "url": "/api/projects/f46db7b7-c5c4-4274-96cd-fcc7f4eb4349/assets/f2983184-4d75-4e67-b5ca-a085a0b3a4c3"
     },
@@ -148834,7 +148834,7 @@
       "method": "smart-mesh-p2",
       "origin": "agent",
       "requestId": "5242eb50-9478-4286-b42a-2c2778f49a30",
-      "referenceStamp": "226eb4092b4b221bbc3c18c7f074c0dda361fe4dfdea7069bdc3454e53f966ec"
+      "referenceStamp": "138e60689c15c58e9a2c5b6c44335478f85c4f5ab9b80ba9a8345937168c287a"
     },
     {
       "id": "75674b7f-a77d-441b-a143-7d9f3ce019a5",
@@ -148858,7 +148858,7 @@
       "method": "smart-mesh-p2",
       "origin": "agent",
       "requestId": "5242eb50-9478-4286-b42a-2c2778f49a30",
-      "referenceStamp": "226eb4092b4b221bbc3c18c7f074c0dda361fe4dfdea7069bdc3454e53f966ec",
+      "referenceStamp": "138e60689c15c58e9a2c5b6c44335478f85c4f5ab9b80ba9a8345937168c287a",
       "modelId": "6dfca879-f5ad-4638-aa53-7c725150ccc2",
       "modelSha256": "96c0df7b3c15770fedf958c60bf000f357a164c6e91533ffbdcb35481634c75c"
     },
@@ -148874,7 +148874,7 @@
       "method": "smart-mesh-p2",
       "origin": "agent",
       "requestId": "5242eb50-9478-4286-b42a-2c2778f49a30",
-      "referenceStamp": "226eb4092b4b221bbc3c18c7f074c0dda361fe4dfdea7069bdc3454e53f966ec",
+      "referenceStamp": "138e60689c15c58e9a2c5b6c44335478f85c4f5ab9b80ba9a8345937168c287a",
       "modelId": "6dfca879-f5ad-4638-aa53-7c725150ccc2",
       "modelSha256": "96c0df7b3c15770fedf958c60bf000f357a164c6e91533ffbdcb35481634c75c"
     }

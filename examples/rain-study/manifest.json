@@ -37,7 +37,7 @@
     {
       "file": "project.hairbridge",
       "bytes": 3267277,
-      "sha256": "11fa3e95d3277a141cd084e50f3d22213a12ceed00631509652998fa7e3dda68"
+      "sha256": "f9e3ed4f7a9c573787c02f6ad1b8dd01f2aa477040254b2dd4e5b6aa5e4e72ef"
     },
     {
       "file": "references/back.png",
@@ -61,8 +61,8 @@
     },
     {
       "file": "references/source.png",
-      "bytes": 401540,
-      "sha256": "25e91547df92ca74d7c2b9c49f23c463d1c5e8a7d5afb7f62bd53531ed6314cd"
+      "bytes": 401424,
+      "sha256": "c9b8c06e2c48ef5b8ae44b9101a214b085ba0d79101e5a2d64351bd633bdb137"
     }
   ]
 }

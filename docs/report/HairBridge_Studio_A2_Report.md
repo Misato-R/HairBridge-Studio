@@ -2,9 +2,9 @@
 
 **A2 Project Report**
 
-LU WENXUAN | 25 November 2026
+Developer | 25 November 2026
 
-**Word count:** main report 1173; abstract 208; total 1381. Main headings are included. Figures, short captions, references and repository links are excluded.
+**Word count:** Main report 1,088. Abstract 208. Total 1,296. Main headings are included. Figures, short captions, references and repository links are excluded.
 
 ## Abstract
 
@@ -16,15 +16,15 @@ The workflow has been completed on a Rain-derived example, including region revi
 
 ## Problem and scope
 
-For A2, I narrowed the concern raised in A1 to a practical modelling task: inspect and edit one complete strand of stylised hair. If the mesh is fused or fragmented, finding and selecting that strand can become a task of its own. HairBridge Studio connects reference images and a rough mesh with region selection, guides, cross-section controls and Blender construction, so the modeller can carry a chosen piece through to an editable result.
+My starting point was a problem from A1. If a piece of generated hair is fused to its neighbours or split into fragments, selecting it can require repairs. I built HairBridge Studio so a modeller can define the piece on a rough mesh and carry it through to an editable strand in Blender.
 
-The implemented workflow is demonstrated on a Rain-derived example. Users can correct selections, compare and adopt guides, adjust the hair's shape, refine it in Blender and return a review copy. The region and fitting steps still use the supplied example data. The workflow has not yet been tested across other hairstyles, and I have not measured whether it saves editing time. I am continuing to improve mesh closure and explore seam and shape control with draw-hair.
+I developed the workflow on one Rain-derived example. The modeller can correct regions, choose guides, adjust the hair's shape and return an edit from Blender for review. Region selection and fitting still rely on the data supplied with the example.
 
 ## Design rationale
 
-I first tried generating hair directly with HairDeck. Its editable control points, widths and thicknesses offered a useful starting point (He et al., 2026), following A1's discussion of CHARM (He et al., 2025). However, the results in my Rain trials differed from the reference in fringe placement, ponytail length and strand count. I kept the editable representation but reconsidered how to obtain it.
+I started with HairDeck because its control points, widths and thicknesses can be edited (He et al., 2026). I liked this way of describing hair when I reviewed CHARM for A1 (He et al., 2025). In my Rain trials, the fringe placement, ponytail length and strand count differed from the reference. I kept those controls and looked for a better starting shape.
 
-I then worked backwards from Rain v3's existing hair meshes (Blender Studio, 2025). Using their UV coordinates, I sampled sections along each piece, connected their centres into guide curves, and measured their widths, thicknesses, orientations and outlines. With the same 17 guides, replacing sections sampled at four points with measured 16-point profiles increased front-view silhouette intersection over union (IoU) from 82.23% to 94.38% (Figure 1). This gave me confidence that guides and sections could preserve the shape when reliable geometry was available. Both came from the original mesh; extracting them from generated geometry remained the next challenge.
+I worked backwards from Rain v3's original meshes (Blender Studio, 2025). I used their UV coordinates to sample cross-sections and joined the section centres into guides. I measured each section's width, thickness, orientation and outline. With the same 17 guides, using measured 16-point profiles in place of four-point sections raised the front-view silhouette intersection over union (IoU) from 82.23% to 94.38% (Figure 1). I then tried extracting both from generated meshes.
 
 <div class="page-break"></div>
 
@@ -41,15 +41,15 @@ I then worked backwards from Rain v3's existing hair meshes (Blender Studio, 202
 
 The two measured reconstructions use the same 17 guides and profiles derived from the original mesh. [Measurement record](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/rain-reference-metrics.json). Rain Rig (CC) Blender Foundation | studio.blender.org.
 
-I therefore tried Tripo Smart Mesh P2.0 as a source of coarse geometry (Tripo, 2026a). HairLRM's structural mesh constraints and HairFlow's combination of geometry and directional guidance helped explain this choice (Shen et al., 2026; Wang et al., 2026). My implementation uses geometric processing and human review. For the Rain example, I extracted head and hair components from one candidate, preserving their shared coordinate frame.
+HairLRM's mesh constraints and HairFlow's use of geometry and directional guidance gave me a reason to start from a rough mesh (Shen et al., 2026; Wang et al., 2026). I tried Tripo Smart Mesh P2.0 (Tripo, 2026a) and separated the head and hair from the same Rain result so they stayed in the same coordinate frame. From there, the workflow uses geometry processing and the modeller's review.
 
-The extracted guides could still wobble or twist. In the S-curl test, ordinary smoothing reduced local silhouette IoU from 88.52% to 67.13%; preserving the main bend retained 82.25% (Figure 2). I therefore included confirmation of roots, tips and major bends, with comparisons before adopting replacement guides.
+Some extracted guides still wobbled or twisted. Ordinary smoothing flattened the S-curl and reduced local silhouette IoU from 88.52% to 67.13%. Keeping the main bend brought it to 82.25% (Figure 2). That is why the modeller checks the root, tip and key bends before adopting a replacement guide.
 
-I also compared local mesh closure with Tripo's cloud Quick Cap (Tripo, 2026b) to investigate incomplete measurement surfaces. Keeping guides, section trends and settings at the scalp ends unchanged, the cloud result slightly reduced exposed scalp in three views. In the rear-left view, within a selection inset by four pixels, exposure fell from 4.51% to 4.26%: a relative reduction of about 5.5%, or 0.25 percentage points. The cloud mesh still had openings, and the reconstructed hair bulged slightly further out, so this step remains under development.
+I compared local mesh closure with Tripo's cloud Quick Cap to see whether either would give me a better surface to measure (Tripo, 2026b). I kept the guides, section trends and scalp end settings the same. Quick Cap slightly reduced exposed scalp in all three views. In the rear-left view, measured within a selection inset by four pixels, exposure fell from 4.51% to 4.26%, about 5.5% relative or 0.25 percentage points. The mesh still had openings and the rebuilt hair bulged slightly more. I am still working on this step.
 
-These trials shaped three decisions for the user: which faces belong to a strand, whether its guide follows the intended flow, and whether its volume and overlap look right. Selection brushes make the target explicit, addressing the gulf of execution. Overlaid guides and matching camera views make changes visible, addressing the gulf of evaluation. Local cross-section controls adjust width, thickness, roundness and ends. Previews, undo and version restoration support correction and reversibility (Amershi et al., 2019).
+I wanted modellers to make three decisions themselves. First, they decide which faces belong to the strand. A brush makes that correction directly on the mesh, narrowing Norman's gulf of execution (Week 2). If cleanup removes too much, undo restores the previous selection (S1). This is a case of efficient correction from Week 1 (Amershi et al., 2019, G9). Second, they judge the strand's direction. Overlaid guides and matching camera views make the change easier to read, narrowing the gulf of evaluation. Third, they judge the volume and overlap. They can adjust width, thickness, roundness and ends, then return to an earlier shape and its approval through version history.
 
-I wrote Surface Hair Curve Tool with Codex assistance to manage native Blender Bézier guides and groups. The bridge handles fitting and deviation checks; Stylized Hair PRO builds the geometry (Zarkov, n.d.). HairMesh and Hair Curve Toolkit supported earlier experiments and are credited separately.
+I wrote Surface Hair Curve Tool with Codex assistance to manage native Blender Bézier guides and groups. The bridge handles fitting and deviation checks. Stylized Hair PRO builds the geometry (Zarkov, n.d.). HairMesh and Hair Curve Toolkit supported earlier experiments and are credited separately.
 
 <div class="page-break"></div>
 
@@ -58,55 +58,55 @@ I wrote Surface Hair Curve Tool with Codex assistance to manage native Blender B
 ![English figure 2](figures_en/figure2_smoothing.png)
 
 
-Same coarse mesh, root/tip constraints and cross-section settings; ordinary smoothing loses part of the intended curl.
+The comparison uses the same coarse mesh, root and tip constraints, and cross-section settings. Ordinary smoothing flattens part of the curl.
 
 ## System architecture
 
-The browser handles inspection and editing. A local Node.js service stores assets, tasks, approvals and versions, and checks that returned outputs still match the current inputs. Changing a reference invalidates downstream approvals.
+The modeller inspects and edits in the browser. A local Node.js service keeps assets, tasks, approvals and versions. Changing a reference clears later approvals so the modeller can review the work against the new input.
 
-Reference-image and Tripo tasks are prepared in the workspace, passed to Codex and the user's signed-in tools, then registered back in the project. Generated references, coarse models and guide proposals are reviewed before adoption. HairDeck remains an optional source of initial guides, using a separate local inference environment.
+The workspace prepares reference-image and Tripo tasks for Codex and the modeller's signed-in tools. The modeller reviews the references, rough models and guide proposals as they come back. HairDeck can also produce initial guides in its own local environment.
 
-After guide and section review, a background Blender process builds the editable Blend file and GLB preview. The modeller can refine guides in Blender and return a review copy. Surface Hair Curve Tool manages curves and groups; the bridge connects them to Stylized Hair PRO. Figure 3 separates generation tools, local processing and human decisions.
+After guide and section review, Blender builds the editable .blend file and GLB preview in the background. The modeller can refine the guides and send a copy back. The add-on sends the files and their input version to Node. The service checks that version before accepting the result, an example of Week 4's action preconditions (Figure 3).
 
 ### Figure 3. Components and information flow
 
 ![English figure 3](figures_en/figure3_architecture.png)
 
-Solid connections are implemented for the supplied study. Generation uses agent/tool handoffs; region and fitting tools use study data. The dashed branch marks further work.
+Solid paths show the working Rain study. The dashed branch shows planned work. Node checks the project and input version before showing a returned Blender copy for review.
 
 <div class="page-break"></div>
 
 ## Illustrated interaction
 
-The examples show region, guide and section decisions from separate development runs, with original viewport extracts and schematic English controls.
+These three examples come from separate development runs. They follow a modeller correcting a region, checking replacement guides and adjusting a section.
 
 ### S1. Correct a region
 
 ![English figure S1](figures_en/storyboard1_region.png)
 
-Viewport extracts and schematic recovery controls from the cleanup regression. Adding 84 faces, removing six, applying and undoing were checked.
+The cleanup test added 84 faces and removed six. It covered applying and undoing the change. The views come from the test and the controls are schematic. [Cleanup record](https://github.com/Misato-R/HairBridge-Studio/blob/main/docs/evidence/region-regression.json).
 
 ### S2. Review replacement guides
 
 ![English figure S2](figures_en/storyboard2_guides.png)
 
-Offline geometry inspection. Blue shows the old guides and amber the candidates. The project records adoption and construction of seven replacements.
+The guide comparison was made offline. The adoption control is schematic, the feedback is translated from project history, and the seven-guide workspace is a later screenshot. [Adoption record](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/final-workflow.json#L123-L131).
 
 ### S3. Check a section adjustment
 
 ![English figure S3](figures_en/storyboard3_sections.png)
 
-Schematic controls and original viewport extracts from one S-curl trial. Width and thickness use the selected range; roundness applies to the strand. Preview and built geometry are distinct.
+Schematic controls alongside the original S-curl trial views. Width and thickness use the selected range. Roundness applies to the whole strand. The last view shows the built geometry.
 
 <div class="page-break"></div>
 
 ## Results and validation
 
-The selected Rain project records adoption of seven replacement guides. Blender produced seven editable curves, with 16 points per cross-section and 7,280 evaluated vertices. The saved Blend and preview files matched their recorded hashes, and final approval was recorded on 25 November 2026.
+The Rain project logged the adoption of seven replacement guides. The Blender build produced seven editable curves, 16 points per cross-section and 7,280 evaluated vertices. Both output files matched their recorded hashes, and the project logged final approval on 25 November 2026.
 
-Separate runs checked applying and undoing region cleanup, editing one strand, undoing a section change while retaining the edited path, leaving neighbouring geometry unchanged, and restoring a version with its approval state. Before release, all 34 automated checks passed in a clean repository export; GitHub checks also passed. An isolated Blender 5.3.0 profile verified installation of both author-developed add-ons, language switching, synthetic strand construction, edit/restore and reopening. These records identify the different runs involved.
+Separate runs covered region cleanup and undo, editing one strand without changing its neighbours, undoing a section edit while keeping the edited path, and restoring a version with its approval. All 34 automated release checks passed in a clean repository export and on GitHub. An isolated Blender 5.3.0 profile verified both add-on installations, language switching, and building, editing, restoring and reopening a synthetic strand.
 
-The section comparison also showed a trade-off. In the rear view, fitting and smoothing sections reduced the 95th percentile of outward depth from 22.56 to 20.02 mm, while projected coverage fell from 87.92% to 85.41% (Figure 5). I therefore kept multiple camera views available before final approval.
+Fitting and smoothing the sections reduced the 95th percentile of outward depth in the rear view from 22.56 to 20.02 mm. Projected coverage also fell, from 87.92% to 85.41% (Figure 5). I kept several angles available because a useful change in depth can still leave gaps in coverage.
 
 ### Figure 4. Local closure and cloud Quick Cap
 
@@ -121,29 +121,28 @@ Columns: original selection, reconstruction using local closure, reconstruction 
 
 ![English figure 5](figures_en/figure5_sections.png)
 
-Same guides, head and cameras. Coverage measures overlap with the visible coarse-mesh rear selection; it is different from Figure 1's silhouette IoU. [Metrics](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/uv-section-metrics.json).
+The guides, head and cameras are the same. Here coverage means overlap with the visible rear selection on the rough mesh. Figure 1 measures silhouette IoU. [Metrics](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/uv-section-metrics.json).
 
 ## Reflection and further work
 
-The tests changed what I looked for in an improvement. A smoother guide can erase a deliberate curl, and less bulging can come with less coverage. The useful response was to make those changes easy to compare and reverse, while keeping the modeller's shape decisions visible.
+I started by trying to make the guides smoother. The S-curl made me pay more attention to which parts should stay put. The section test also made me wary of judging an edit from a single angle. I would still check for gaps, intersections and changes in style by eye.
 
-The selected workflow is complete, but local gaps, intersections and overall styling still need visual judgement. I treat the closed mesh as a measurement aid whose distortion also needs checking. Draw-hair trials have not yet resolved seams or intersections, so the submitted geometry route continues to use Stylized Hair PRO.
+Closing the rough mesh gives me a surface to measure, though it can distort the shape. I would keep testing draw-hair on seams and intersections. The current build uses Stylized Hair PRO.
 
-Next I would test more hairstyles through actual modelling tasks, recording correction work and time. That would help establish whether the region, guide and section controls reduce editing effort beyond this example.
+On more hairstyles, I would compare the same edits with A1's proposed baseline of segmentation followed by manual repair. I would count corrections and total time, including preparation.
 
 ## Development and delivery
 
-I defined the problem, chose the development route and prepared the dataset. I developed Surface Hair Curve Tool and the workflow with Codex assistance in coding, debugging and verification. The release includes both author-developed installers, verification tools, five reference images and a reusable seven-guide example. The English interface also supports Chinese. Stylized Hair PRO is a separate dependency, with a private assessment attachment prepared for the teacher. Sources, AI assistance and significant changes are documented in the README and development record.
+I defined the problem, chose the workflow and prepared the dataset. I used Codex to help write and debug code and check results. The current repository includes both project add-ons, verification tools, five references and a reusable seven-guide example. The interface supports English and Chinese. The Stylized Hair PRO add-on is available in the private assessment attachment. The README explains the AI work and links the development record.
 
 ## Repository and submitted version
 
 - [Public repository](https://github.com/Misato-R/HairBridge-Studio)
-- [Release v0.1.0-a2](https://github.com/Misato-R/HairBridge-Studio/releases/tag/v0.1.0-a2)
-- Code commit: `5df5f1383f38d87e0148a34529e5b7cb841050a2`
-- [README](https://github.com/Misato-R/HairBridge-Studio/blob/ed3c27b6880f0c02220deaf92617b16db83e13b7/README.md), [development record](https://github.com/Misato-R/HairBridge-Studio/blob/ed3c27b6880f0c02220deaf92617b16db83e13b7/docs/development.md), [reproduction guide](https://github.com/Misato-R/HairBridge-Studio/blob/ed3c27b6880f0c02220deaf92617b16db83e13b7/docs/reproduction.en.md)
+- Tested code baseline `v0.1.0-a2` (`5df5f1383f38d87e0148a34529e5b7cb841050a2`)
+- [README and current hand-in files](https://github.com/Misato-R/HairBridge-Studio#readme), [development record](https://github.com/Misato-R/HairBridge-Studio/blob/main/docs/development.md), [reproduction guide](https://github.com/Misato-R/HairBridge-Studio/blob/main/docs/reproduction.en.md)
 - [Release verification](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/release-verification.json), [final project record](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/final-workflow.json), [earlier round-trip checks](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/earlier-workflow-verification.json)
 
-Figure 4 supplements the fixed code release. [Documentation and closure evidence commit ed3c27b](https://github.com/Misato-R/HairBridge-Studio/commit/ed3c27b6880f0c02220deaf92617b16db83e13b7); [comparison and limitations](https://github.com/Misato-R/HairBridge-Studio/blob/ed3c27b6880f0c02220deaf92617b16db83e13b7/docs/evidence/closure-comparison.md).
+Figure 4 was recorded after that release. [Closure comparison and limitations](https://github.com/Misato-R/HairBridge-Studio/blob/ed3c27b6880f0c02220deaf92617b16db83e13b7/docs/evidence/closure-comparison.md).
 
 <div class="page-break"></div>
 
@@ -171,4 +170,4 @@ Wang, Y., Wu, K., Yi, R., Lu, Z., Wang, T., Zheng, Z., Ma, L., & Shen, Y. (2026)
 
 Zarkov, D. (n.d.). *Stylized Hair PRO* (Version 4.3.1) [Blender add-on]. [Author's product page](https://deanzarkov.gumroad.com/l/stylized_hair_pro).
 
-LU WENXUAN prepared the project dataset and authored Surface Hair Curve Tool 0.1.0 with Codex assistance. Original character assets, external models and third-party tools retain their respective credits. Numerical results and comparison images in this report come from the project's own experiments.
+I prepared the project dataset and authored Surface Hair Curve Tool 0.1.0 with Codex assistance. Original character assets, external models and third-party tools retain their respective credits. Numerical results and comparison images in this report come from the project's own experiments.

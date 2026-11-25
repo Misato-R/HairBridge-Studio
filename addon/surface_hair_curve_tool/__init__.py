@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Surface Hair Curve Tool",
-    "author": "LU WENXUAN (with Codex assistance)",
+    "author": "Developer (with Codex assistance)",
     "version": (0, 1, 0),
     "blender": (5, 0, 0),
     "location": "View3D > Sidebar > Surface Hair",

@@ -27,7 +27,9 @@
   {
     "file": "region-regression.json",
     "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/reg_FCvwD7/verification.json",
-    "sha256": "5748cc90ff53e4b703bb2ae1dde9b02fcbc4bd45a4a387fa8b553d6df14dbc2e"
+    "sha256": "556e27db5a2b36c4184cce4d80e6f94489db58d39a99bb8b4f5e4d3deadeeb70",
+    "source_sha256": "5748cc90ff53e4b703bb2ae1dde9b02fcbc4bd45a4a387fa8b553d6df14dbc2e",
+    "redaction": "Output directory recorded relative to the workspace."
   },
   {
     "file": "refit-seven-guides.png",

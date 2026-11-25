@@ -1,29 +1,21 @@
 {
   "date": "2026-11-25",
-  "status": "Final audit: missing Quick Cap in-text citation added; other prose retained.",
+  "status": "Revised against the A2 assessment criteria.",
   "words_whitespace": {
     "abstract": 208,
-    "main_prose": 1154,
+    "main_prose": 1069,
     "main_headings": 19,
-    "main_report": 1173,
-    "total_counted": 1381,
+    "main_report": 1088,
+    "total_counted": 1296,
     "sections": {
-      "Problem and scope": 149,
-      "Design rationale": 477,
-      "System architecture": 135,
-      "Illustrated interaction": 20,
-      "Results and validation": 164,
-      "Reflection and further work": 128,
-      "Development and delivery": 81
+      "Problem and scope": 93,
+      "Design rationale": 491,
+      "System architecture": 131,
+      "Illustrated interaction": 22,
+      "Results and validation": 154,
+      "Reflection and further work": 110,
+      "Development and delivery": 68
     }
   },
-  "counting": "Whitespace splitting. In-text citations and figure calls included. Figure blocks (tables, diagram, storyboard labels and short captions), references, repository links and the word-count notice excluded. Main section headings included.",
-  "approved_opening_preserved": "Abstract and problem/scope unchanged; rationale changed only by the logged citation insertion.",
-  "approved_design_body_sha256": "14c25305a26e3b9b2641c9f41bcc21075891aa153c3eb508384967d00515637a",
-  "figure_images": 8,
-  "architecture": "English typeset diagram",
-  "illustration_note": "All figure labels and storyboard controls are English. Geometry panels are unchanged source render/viewport extracts; schematic controls are labelled.",
-  "new_closure_evidence": "Included in local evidence/; not asserted to be in fixed release v0.1.0-a2.",
-  "main_length_guidance": "User-reported teacher clarification allows some excess around 1000 words; no rigid reduction is applied.",
-  "citation_patch": "(Tripo, 2026b), two whitespace words; bibliography changes excluded."
+  "counting": "Whitespace splitting. Includes main section headings, in-text citations and figure calls. Excludes figure blocks, short captions, references, repository information and word-count notice."
 }

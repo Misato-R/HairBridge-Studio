@@ -1,6 +1,6 @@
 # Blender installers
 
-- `surface_hair_curve_tool.zip`: Surface Hair Curve Tool 0.1.0, authored by LU WENXUAN with Codex assistance.
+- `surface_hair_curve_tool.zip`: Surface Hair Curve Tool 0.1.0, authored by the developer with Codex assistance.
 - `hairbridge_studio.zip`: HairBridge Studio 0.1.1, including the internal HairDeck JSON Bridge and its retained HairDeck notice.
 - `manifest.json`: versions, file counts and SHA-256 checksums generated with the ZIPs.
 

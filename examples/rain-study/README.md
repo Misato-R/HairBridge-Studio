@@ -15,7 +15,7 @@ or exact renders of the original model.
 **Attribution:** Rain Rig (CC) Blender Foundation | studio.blender.org.
 [Original character and CC-BY notice](https://studio.blender.org/characters/rain/v3/).
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-LU WENXUAN prepared the project test materials with Codex assistance. Retain
+The developer prepared the project test materials with Codex assistance. Retain
 the original character attribution when reusing these materials. Generated views,
 Tripo geometry and extracted/fitted guides are identified as project derivatives;
 they do not imply endorsement by Blender Studio.

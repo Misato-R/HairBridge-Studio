@@ -4,7 +4,7 @@ Initial validation: 2026-11-23. P2.0 preparation regression checks updated 2026-
 
 ## Completed automated checks
 
-- The initial 12 Node tests covered guide data, reference invalidation, persistent HTTP checkpoints and project export, and local access boundaries. The current suite has 28 checks (see the 2026-11-25 update below). The P2.0 checks use fixture GLBs to exercise CLI registration, three-file publication, preservation of reviewed assets during a replacement, stale task rejection and the review gate for guides. They also exercise existing GLB imports and legacy requests.
+- The initial 12 Node tests covered guide data, reference invalidation, persistent HTTP checkpoints and project export, and local access boundaries. The suite reached 28 checks at the workflow completion stage, 32 at the bilingual stage and 34 for the public release. The P2.0 checks use fixture GLBs to exercise CLI registration, three-file publication, preservation of reviewed assets during a replacement, stale task rejection and the review gate for guides. They also exercise existing GLB imports and legacy requests.
 - Node syntax checks passed for the server, browser controller and 3D viewer.
 - Python compilation passed for worker, build script and companion code.
 - Installable companion ZIP was generated with only source and license files.
@@ -46,7 +46,7 @@ The local teacher attachment is in ignored `teacher-verification/`; its SHP sour
 
 The selected-example workflow is complete. The real Test 2 project retains adoption of seven replacement guides, successful Blender construction (seven guides, 16 section points each, 7,280 evaluated vertices), saved Blend/GLB outputs with matching hashes, and final approval at 15:58:59 UTC. Earlier real-material checks separately support edit/undo, review return and version restoration. These are different runs, not one newly executed end-to-end check.
 
-The current `npm test` run passed all 28 tests. Face cleanup, anchored edits, section fitting, endpoint controls and state/export behaviour are covered. The first sandbox run could not connect to its temporary loopback HTTP port (`EACCES`); the authorised rerun with loopback access passed without code changes. Full evidence, image provenance, quality tradeoffs and draw-hair future scope are in [submission-validation.zh-CN.md](submission-validation.zh-CN.md).
+The `npm test` run at this stage passed all 28 tests. Face cleanup, anchored edits, section fitting, endpoint controls and state/export behaviour are covered. The first sandbox run could not connect to its temporary loopback HTTP port (`EACCES`); the authorised rerun with loopback access passed without code changes. Full evidence, image provenance, quality tradeoffs and draw-hair future scope are in [submission-validation.zh-CN.md](submission-validation.zh-CN.md).
 
 SHP remains the completed geometry path. Draw-hair trials are recorded as further work; they do not establish resolved seams or intersections. General hairstyle applicability, editing-time benefits and participant usability remain untested.
 

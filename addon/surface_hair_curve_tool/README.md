@@ -1,6 +1,6 @@
 # Surface Hair Curve Tool 0.1.0
 
-Author: LU WENXUAN, with Codex assistance.
+Author: Developer, with Codex assistance.
 
 This is the author-developed Blender curve component used by HairBridge Studio.
 It creates and samples editable Bézier guides, manages curve groups and stable
