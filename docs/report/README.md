@@ -27,13 +27,11 @@ The report keeps the fixed v0.1.0-a2 code release separate from the published
 documentation supplement. Figure 4's web links are pinned to documentation
 commit ed3c27b6880f0c02220deaf92617b16db83e13b7; offline copies of its two JSON
 records are also included in `evidence/`. See `publication.json` for version
-details. No assignment submission has been performed.
+details.
 
 ## Submission and images
 
 The archived A2 brief specifies a project report, without prescribing Markdown,
-PDF or Word. The recommended reading/submission copy is the PDF, which embeds
-all illustrations. This source ZIP is for editing or offline inspection.
-If Markdown is requested, provide the complete ZIP or a GitHub page containing
-the Markdown and its `figures_en/` directory. A lone Markdown file does not
-contain the local images. Keep relative folder paths unchanged when extracting.
+PDF or Word. The PDF embeds all illustrations and is ready to read on its own.
+For offline editing, download the repository as a ZIP and open the Markdown in
+this directory. Keep `figures_en/` beside the Markdown so the images load.

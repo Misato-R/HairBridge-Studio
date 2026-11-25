@@ -64,6 +64,12 @@ Blender processing uses a fresh background scene and writes a new file. The live
 
 Charakuru informed the checkpoint and persistent-project interaction. Its application code, agent skills, character assets and project format were not copied. Separately licensed Three.js files were reused with their MIT notice.
 
+## 2026-11-24 — Tripo Smart Mesh P2.0 handoff
+
+I submitted the Test 2 rough-model request to Tripo Studio on 24 November. The saved candidate was used in the later seven-guide Rain study. In separate regression tests, I used fixture GLBs to check that the agent CLI registers the whole model, head and hair together. The checks also covered retaining the reviewed assets while a replacement is pending, rejecting stale results and requiring separation review before guide creation.
+
+[Preparation regression checks](validation.md#completed-automated-checks) · [Later Rain study record](evidence/final-workflow.json)
+
 ## Curve system and module responsibilities
 
 Surface Hair Curve Tool is an author-developed core of the Blender curve layer, providing native curves, sampling and grouping. The bridge fits sampled paths and checks conversion deviation. Web modules handle surface-constrained paths, anchor-preserving fairing and region review; the refinement companion transports cross-sections after guide edits. These related improvements belong to the overall curve system and should not all be attributed to the Surface Hair add-on directory. See [technical design and experiment links](curve-system.zh-CN.md).
@@ -100,10 +106,10 @@ Added a five-image Rain input set and a cleaned seven-guide project template, st
 
 ## 2026-11-25 — Report evidence reconciliation after v0.1.0-a2
 
-The report review identified a documentation gap: the later local/cloud closure
-comparison was supplied with the report source, outside the fixed release.
-Added an English comparison note, the original numerical records, and its
-English-labelled figure and provenance. The note distinguishes a 5.5305%
+I measured the local-closure and Quick Cap comparison on the afternoon of
+25 November. After tagging `v0.1.0-a2`, I prepared the English figure and
+published it with the original measurements and provenance that evening.
+The note distinguishes a 5.5305%
 relative reduction in rear-left exposed scalp from a 0.2492 percentage-point
 absolute reduction, and retains the remaining openings and depth trade-off.
 No runtime code, installers or fixed release tag were changed.

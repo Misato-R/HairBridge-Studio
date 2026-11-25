@@ -4,8 +4,6 @@
   "code_release": "v0.1.0-a2",
   "code_commit": "5df5f1383f38d87e0148a34529e5b7cb841050a2",
   "documentation_commit": "ed3c27b6880f0c02220deaf92617b16db83e13b7",
-  "supplement_pushed": true,
-  "assignment_submitted": false,
-  "format_requirement": "Archived A2 text does not prescribe Markdown, PDF or Word. Live Canvas extension restrictions could not be checked because browser control stopped when it could not determine the current URL.",
-  "recommended_submission": "PDF report with embedded images and repository links; keep Markdown/assets in GitHub and a portable source ZIP."
+  "format_requirement": "The archived A2 brief specifies one project report and leaves the file format open.",
+  "recommended_submission": "PDF report with embedded images and repository links. The editable Markdown and its figures are available in this repository."
 }
