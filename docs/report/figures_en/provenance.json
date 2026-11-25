@@ -1,0 +1,542 @@
+{
+  "method": "New English scientific layouts from source renders and documented viewport extracts; no generative image alteration. Storyboard controls are explicitly schematic.",
+  "panels": [
+    {
+      "source": "assignment\\A2_Hair_Bridge\\rain_v3\\renders\\original_front.png",
+      "source_sha256": "043d1cb4f07296c70758b80bbc87e4fd6d4244149512b547ba278126c51f7e01",
+      "source_box": [
+        0,
+        20,
+        640,
+        490
+      ],
+      "target_box": [
+        110,
+        72,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\rain_v3\\renders\\original_back.png",
+      "source_sha256": "bb0633453ea39e3483ca980ad3b5e9095fe70a87c1e00f6daeda4926baf800c4",
+      "source_box": [
+        0,
+        20,
+        640,
+        490
+      ],
+      "target_box": [
+        110,
+        522,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\rain_v3\\mesh_reference\\renders\\measured4_front.png",
+      "source_sha256": "1fd30b93e45c9ca7e98f5a2e8ba8b2509f545b836723946e4269569bd6c4afff",
+      "source_box": [
+        0,
+        20,
+        640,
+        490
+      ],
+      "target_box": [
+        665,
+        72,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\rain_v3\\mesh_reference\\renders\\measured4_back.png",
+      "source_sha256": "54ad6b739288c50a5bd45286b08fe26e5aaebf83d11203d9137f115a7007a075",
+      "source_box": [
+        0,
+        20,
+        640,
+        490
+      ],
+      "target_box": [
+        665,
+        522,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\rain_v3\\mesh_reference\\renders\\measured16_front.png",
+      "source_sha256": "d891585447bea85398e23799892481410b79c57c33d08c23722a572a157b9af8",
+      "source_box": [
+        0,
+        20,
+        640,
+        490
+      ],
+      "target_box": [
+        1220,
+        72,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\rain_v3\\mesh_reference\\renders\\measured16_back.png",
+      "source_sha256": "4af5e56a4bcaca58580bfa15fa441ca9fd07b2579dbec426b8164ecf603d55d0",
+      "source_box": [
+        0,
+        20,
+        640,
+        490
+      ],
+      "target_box": [
+        1220,
+        522,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\s-curl-comparison.png",
+      "source_sha256": "b3420c065ca28b8694b1c21d18e031b9c54e7d97368f6e3b6744778850888aa7",
+      "source_box": [
+        495,
+        1103,
+        972,
+        1499
+      ],
+      "target_box": [
+        20,
+        65,
+        565,
+        410
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\s-curl-comparison.png",
+      "source_sha256": "b3420c065ca28b8694b1c21d18e031b9c54e7d97368f6e3b6744778850888aa7",
+      "source_box": [
+        984,
+        1103,
+        1461,
+        1499
+      ],
+      "target_box": [
+        615,
+        65,
+        565,
+        410
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\s-curl-comparison.png",
+      "source_sha256": "b3420c065ca28b8694b1c21d18e031b9c54e7d97368f6e3b6744778850888aa7",
+      "source_box": [
+        1473,
+        1103,
+        1950,
+        1499
+      ],
+      "target_box": [
+        1210,
+        65,
+        565,
+        410
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        28,
+        141,
+        514,
+        546
+      ],
+      "target_box": [
+        110,
+        65,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        526,
+        141,
+        1012,
+        546
+      ],
+      "target_box": [
+        665,
+        65,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        1024,
+        141,
+        1510,
+        546
+      ],
+      "target_box": [
+        1220,
+        65,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        28,
+        591,
+        514,
+        996
+      ],
+      "target_box": [
+        110,
+        545,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        526,
+        591,
+        1012,
+        996
+      ],
+      "target_box": [
+        665,
+        545,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        1024,
+        591,
+        1510,
+        996
+      ],
+      "target_box": [
+        1220,
+        545,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        28,
+        1041,
+        514,
+        1446
+      ],
+      "target_box": [
+        110,
+        1025,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        526,
+        1041,
+        1012,
+        1446
+      ],
+      "target_box": [
+        665,
+        1025,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\tripo_cloud_cap\\comparison_unlabeled.png",
+      "source_sha256": "272136833452214d7520c8ffef0438731d35d4f56aed9b7328a1e195d9989d3e",
+      "source_box": [
+        1024,
+        1041,
+        1510,
+        1446
+      ],
+      "target_box": [
+        1220,
+        1025,
+        530,
+        390
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\test2_uv_section_unlabeled.png",
+      "source_sha256": "9c2514f03146be4816187c2a3cccc4f77d16f631635fc11028554cf590e1c6db",
+      "source_box": [
+        526,
+        141,
+        1012,
+        546
+      ],
+      "target_box": [
+        100,
+        65,
+        535,
+        395
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\test2_uv_section_unlabeled.png",
+      "source_sha256": "9c2514f03146be4816187c2a3cccc4f77d16f631635fc11028554cf590e1c6db",
+      "source_box": [
+        1024,
+        141,
+        1510,
+        546
+      ],
+      "target_box": [
+        100,
+        565,
+        535,
+        395
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\test2_uv_section_unlabeled.png",
+      "source_sha256": "9c2514f03146be4816187c2a3cccc4f77d16f631635fc11028554cf590e1c6db",
+      "source_box": [
+        526,
+        591,
+        1012,
+        996
+      ],
+      "target_box": [
+        660,
+        65,
+        535,
+        395
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\test2_uv_section_unlabeled.png",
+      "source_sha256": "9c2514f03146be4816187c2a3cccc4f77d16f631635fc11028554cf590e1c6db",
+      "source_box": [
+        1024,
+        591,
+        1510,
+        996
+      ],
+      "target_box": [
+        660,
+        565,
+        535,
+        395
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\test2_uv_section_unlabeled.png",
+      "source_sha256": "9c2514f03146be4816187c2a3cccc4f77d16f631635fc11028554cf590e1c6db",
+      "source_box": [
+        526,
+        1041,
+        1012,
+        1446
+      ],
+      "target_box": [
+        1220,
+        65,
+        535,
+        395
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\back_refit_321ffb95\\test2_uv_section_unlabeled.png",
+      "source_sha256": "9c2514f03146be4816187c2a3cccc4f77d16f631635fc11028554cf590e1c6db",
+      "source_box": [
+        1024,
+        1041,
+        1510,
+        1446
+      ],
+      "target_box": [
+        1220,
+        565,
+        535,
+        395
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\region-cleanup-before.png",
+      "source_sha256": "dfafdcd99461211c44afa8e3b675d2afa8ff7a917fd6900db30ee9a3e1faa99b",
+      "source_box": [
+        520,
+        325,
+        905,
+        710
+      ],
+      "target_box": [
+        20,
+        80,
+        560,
+        400
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\region-cleanup-after.png",
+      "source_sha256": "a019b528f1f1ec6cda38fa0c7161fc92f1c653028834f666d71abbb11e8a8093",
+      "source_box": [
+        520,
+        325,
+        905,
+        710
+      ],
+      "target_box": [
+        615,
+        80,
+        560,
+        400
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\refit-seven-guides.png",
+      "source_sha256": "b81c7c35b0a5048b539c1f6954776809070f76b44aafb9f484751d53c137c6c4",
+      "source_box": [
+        0,
+        24,
+        560,
+        584
+      ],
+      "target_box": [
+        20,
+        80,
+        560,
+        440
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\refit-seven-guides.png",
+      "source_sha256": "b81c7c35b0a5048b539c1f6954776809070f76b44aafb9f484751d53c137c6c4",
+      "source_box": [
+        0,
+        608,
+        560,
+        1168
+      ],
+      "target_box": [
+        615,
+        80,
+        560,
+        440
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\refit-controls.png",
+      "source_sha256": "b98d3e8f0e8f60e8b45c4324ee58e102463721fd7116a73519cb26b12887fbec",
+      "source_box": [
+        0,
+        24,
+        560,
+        584
+      ],
+      "target_box": [
+        1210,
+        80,
+        560,
+        440
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\section-controls.png",
+      "source_sha256": "f7ece4c82be8dbf91c90ee72ca0eaf72e47a9781e50f2306c03c8d534e453967",
+      "source_box": [
+        600,
+        365,
+        960,
+        745
+      ],
+      "target_box": [
+        615,
+        80,
+        560,
+        440
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    },
+    {
+      "source": "assignment\\A2_Hair_Bridge\\report\\phase4_report_en\\figures\\section-result.png",
+      "source_sha256": "a70fb5b6d168cfa1482bcadc2cbc59e9e3c08eacf1b3207797dcecef123571f3",
+      "source_box": [
+        600,
+        130,
+        960,
+        520
+      ],
+      "target_box": [
+        1210,
+        80,
+        560,
+        440
+      ],
+      "operation": "Crop/scale and placement only; source geometry pixels are not repainted."
+    }
+  ],
+  "outputs": [
+    "figure1_reconstruction.png",
+    "figure2_smoothing.png",
+    "figure3_architecture.png",
+    "figure4_closure.png",
+    "figure5_sections.png",
+    "storyboard1_region.png",
+    "storyboard2_guides.png",
+    "storyboard3_sections.png"
+  ]
+}

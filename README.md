@@ -1,6 +1,6 @@
 # HairBridge Studio
 
-README prose word count: 779 (excluding headings, metadata, code blocks, image captions and URL targets).
+README prose word count: 785 (excluding headings, metadata, code blocks, image captions and URL targets).
 
 A local workspace and Blender companion for turning generated character hair
 into editable guides and SHP geometry. Review references, check separated hair,
@@ -9,6 +9,8 @@ in Blender. The interface defaults to English; use **中文 / English** in the t
 bar to switch. Your language choice is remembered.
 
 ![English workspace](docs/english-workflow.png)
+
+A2 report: [PDF](docs/report/HairBridge_Studio_A2_Report.pdf) or [illustrated Markdown](docs/report/HairBridge_Studio_A2_Report.md).
 
 ## Start
 

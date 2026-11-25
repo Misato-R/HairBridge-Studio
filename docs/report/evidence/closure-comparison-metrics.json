@@ -1,0 +1,44 @@
+{
+  "正后": {
+    "本地闭合": {
+      "coverage": 0.8541026953258274,
+      "innerScalpExposed": 0.09486410585939359,
+      "outsideSelection": 0.02376367934875332,
+      "outwardP95Mm": 20.024065487086766
+    },
+    "Tripo Quick Cap": {
+      "coverage": 0.8549769703172978,
+      "innerScalpExposed": 0.09343614641344186,
+      "outsideSelection": 0.023811262873420495,
+      "outwardP95Mm": 20.447091571986675
+    }
+  },
+  "左后斜视": {
+    "本地闭合": {
+      "coverage": 0.9131310477691668,
+      "innerScalpExposed": 0.045063831951579265,
+      "outsideSelection": 0.028078760340207388,
+      "outwardP95Mm": 20.39611078798771
+    },
+    "Tripo Quick Cap": {
+      "coverage": 0.9138972809667674,
+      "innerScalpExposed": 0.04257158842378313,
+      "outsideSelection": 0.028417818740399385,
+      "outwardP95Mm": 20.51560208201407
+    }
+  },
+  "右后斜视": {
+    "本地闭合": {
+      "coverage": 0.8797627096464635,
+      "innerScalpExposed": 0.0873005840264961,
+      "outsideSelection": 0.03808274710862048,
+      "outwardP95Mm": 21.555458661168853
+    },
+    "Tripo Quick Cap": {
+      "coverage": 0.8805914811018298,
+      "innerScalpExposed": 0.08623871766996183,
+      "outsideSelection": 0.03804826912539013,
+      "outwardP95Mm": 22.169205360114574
+    }
+  }
+}
