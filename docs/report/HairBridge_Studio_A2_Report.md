@@ -2,7 +2,7 @@
 
 **A2 Project Report**
 
-Developer | 25 November 2026
+[HairBridge Studio on GitHub](https://github.com/Misato-R/HairBridge-Studio)
 
 **Word count:** Main report 1,088. Abstract 208. Total 1,296. Main headings are included. Figures, short captions, references and repository links are excluded.
 
@@ -138,7 +138,7 @@ I defined the problem, chose the workflow and prepared the dataset. I used Codex
 ## Repository and submitted version
 
 - [Public repository](https://github.com/Misato-R/HairBridge-Studio)
-- Tested code baseline `v0.1.0-a2` (`5df5f1383f38d87e0148a34529e5b7cb841050a2`)
+- [Tested code release v0.1.0-a2](https://github.com/Misato-R/HairBridge-Studio/tree/v0.1.0-a2)
 - [README and current hand-in files](https://github.com/Misato-R/HairBridge-Studio#readme), [development record](https://github.com/Misato-R/HairBridge-Studio/blob/main/docs/development.md), [reproduction guide](https://github.com/Misato-R/HairBridge-Studio/blob/main/docs/reproduction.en.md)
 - [Release verification](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/release-verification.json), [final project record](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/final-workflow.json), [earlier round-trip checks](https://github.com/Misato-R/HairBridge-Studio/blob/v0.1.0-a2/docs/evidence/earlier-workflow-verification.json)
 
