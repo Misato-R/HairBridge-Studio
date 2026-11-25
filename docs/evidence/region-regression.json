@@ -1,0 +1,35 @@
+{
+  "projectId": "ea13a44e-e208-42c8-864c-11a4cb8d42b9",
+  "output": "C:\\Users\\Nicolas\\Desktop\\UoB\\IIS\\assignment\\A2_Hair_Bridge\\experiments\\rain_v3_studio_trial\\reg_FCvwD7",
+  "initialFaces": 9297,
+  "afterBrush": 9200,
+  "withoutCenter": 8774,
+  "cleanupPreview": {
+    "filled": 84,
+    "trimmed": 6,
+    "appliedAndUndone": true
+  },
+  "brushDiameters": [
+    28,
+    48
+  ],
+  "firstRear": [
+    "nape",
+    "nape_opposite"
+  ],
+  "refitRear": [
+    "nape",
+    "nape_opposite",
+    "nape_center"
+  ],
+  "missingSurfaceFaces": 7675,
+  "result": [
+    "curl",
+    "nape",
+    "nape_opposite",
+    "nape_center"
+  ],
+  "preview": "assets/8795c573-b7ae-4e32-bdb1-36765d54e5e0.glb",
+  "blend": "assets/0c17994e-1a97-471f-8bd1-1b8b7cfdab61.blend",
+  "originalUnchanged": true
+}

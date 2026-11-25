@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "blender": "5.3.0",
+  "guides": 52,
+  "guide_edit_mesh_max_move_mm": 5.085135050826025,
+  "restore_max_error_mm": 0.0,
+  "alignment_gate": true,
+  "surface_correction_operator": true,
+  "review_copy_operator": true,
+  "synthetic_changes_restored": true,
+  "note": "Synthetic surface check only; restored before saving the review copy. Not a hair-quality evaluation."
+}

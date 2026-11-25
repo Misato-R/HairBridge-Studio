@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "referenceViews": [
+    "front",
+    "left",
+    "right",
+    "back"
+  ],
+  "sourceStrands": [
+    "0",
+    "4"
+  ],
+  "baselineAndReviewSaved": true,
+  "restoredApproval": true,
+  "sourceGeometryVertices": 3842,
+  "oneStrandEdit": true,
+  "sectionUndoPreservedEditedPath": true,
+  "otherStrandExact": true
+}

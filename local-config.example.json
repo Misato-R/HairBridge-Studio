@@ -1,0 +1,6 @@
+{
+  "hairdeckRoot": "D:/Character_Hair/references/HairDeck",
+  "hairdeckWorkspace": "D:/Character_Hair/hairdeck_workspace",
+  "hairdeckPython": "D:/Character_Hair/references/HairDeck/.venv/Scripts/python.exe",
+  "blender": "D:/Steam/steamapps/common/Blender/blender.exe"
+}

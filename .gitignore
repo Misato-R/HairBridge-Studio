@@ -1,0 +1,13 @@
+data/
+local-config.json
+dist/
+teacher-verification/
+__pycache__/
+*.pyc
+*.blend1
+node_modules/
+.env
+.env.*
+!local-config.example.json
+*.log
+.DS_Store

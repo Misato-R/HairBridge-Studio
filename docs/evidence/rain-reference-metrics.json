@@ -1,0 +1,135 @@
+{
+  "reference": "Posed original hair subdivision 1, same as render; character occluders unchanged",
+  "views": {
+    "input": {
+      "original": {
+        "iou_pct": 100.0,
+        "missing_pct": 0.0,
+        "excess_pct": 0.0
+      },
+      "hairdeck": {
+        "iou_pct": 42.44252463230044,
+        "missing_pct": 44.47506071361853,
+        "excess_pct": 30.8238371006912
+      },
+      "edited": {
+        "iou_pct": 77.26706354700264,
+        "missing_pct": 8.773117877825518,
+        "excess_pct": 18.066971791518775
+      },
+      "measured4": {
+        "iou_pct": 89.91088256509296,
+        "missing_pct": 9.767887166075099,
+        "excess_pct": 0.35727629366710256
+      },
+      "measured16": {
+        "iou_pct": 95.35293320688254,
+        "missing_pct": 1.3917429478796937,
+        "excess_pct": 3.41397347281898
+      }
+    },
+    "front": {
+      "original": {
+        "iou_pct": 100.0,
+        "missing_pct": 0.0,
+        "excess_pct": 0.0
+      },
+      "hairdeck": {
+        "iou_pct": 42.502362871948634,
+        "missing_pct": 47.11035405767125,
+        "excess_pct": 24.439307296102527
+      },
+      "edited": {
+        "iou_pct": 76.70265036043467,
+        "missing_pct": 13.261954009003528,
+        "excess_pct": 13.083505698179016
+      },
+      "measured4": {
+        "iou_pct": 82.2319403952057,
+        "missing_pct": 17.63799326763191,
+        "excess_pct": 0.1581700936853632
+      },
+      "measured16": {
+        "iou_pct": 94.37751004016064,
+        "missing_pct": 1.833150829379081,
+        "excess_pct": 4.0150869935515265
+      }
+    },
+    "side": {
+      "original": {
+        "iou_pct": 100.0,
+        "missing_pct": 0.0,
+        "excess_pct": 0.0
+      },
+      "hairdeck": {
+        "iou_pct": 41.49776709034696,
+        "missing_pct": 47.95907377490576,
+        "excess_pct": 25.406569736133548
+      },
+      "edited": {
+        "iou_pct": 72.10095806218366,
+        "missing_pct": 14.084544964997308,
+        "excess_pct": 19.159935379644587
+      },
+      "measured4": {
+        "iou_pct": 91.21677796551077,
+        "missing_pct": 8.422186322024771,
+        "excess_pct": 0.39579967689822293
+      },
+      "measured16": {
+        "iou_pct": 96.51273129843429,
+        "missing_pct": 1.4135702746365104,
+        "excess_pct": 2.148626817447496
+      }
+    },
+    "back": {
+      "original": {
+        "iou_pct": 100.0,
+        "missing_pct": 0.0,
+        "excess_pct": 0.0
+      },
+      "hairdeck": {
+        "iou_pct": 80.12465283663437,
+        "missing_pct": 3.615402713512666,
+        "excess_pct": 20.293310328601677
+      },
+      "edited": {
+        "iou_pct": 82.52889852172946,
+        "missing_pct": 6.829268292682927,
+        "excess_pct": 12.89467492745667
+      },
+      "measured4": {
+        "iou_pct": 91.18546248635158,
+        "missing_pct": 8.306799466708494,
+        "excess_pct": 0.5568190730138812
+      },
+      "measured16": {
+        "iou_pct": 96.54195445426284,
+        "missing_pct": 1.1230491726139127,
+        "excess_pct": 2.418633832640577
+      }
+    }
+  },
+  "surface_distance": {
+    "hairdeck": {
+      "symmetric_mean_mm": 21.949634800565814,
+      "generated_to_original_p95_mm": 45.875674706328404,
+      "original_to_generated_p95_mm": 88.25447834692405
+    },
+    "edited": {
+      "symmetric_mean_mm": 14.249957888810744,
+      "generated_to_original_p95_mm": 38.184179268953194,
+      "original_to_generated_p95_mm": 41.485545880317304
+    },
+    "measured4": {
+      "symmetric_mean_mm": 4.656739173353516,
+      "generated_to_original_p95_mm": 13.994908973262485,
+      "original_to_generated_p95_mm": 11.41313390678058
+    },
+    "measured16": {
+      "symmetric_mean_mm": 3.1599188013184514,
+      "generated_to_original_p95_mm": 12.788710926346253,
+      "original_to_generated_p95_mm": 6.318594495520937
+    }
+  }
+}

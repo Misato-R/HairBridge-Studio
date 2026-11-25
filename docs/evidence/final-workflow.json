@@ -1,0 +1,145 @@
+{
+  "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/session/projects/f46db7b7-c5c4-4274-96cd-fcc7f4eb4349/project.hairbridge",
+  "revision": 35,
+  "updated_at_utc": "2026-11-25T15:58:59.217Z",
+  "finish": {
+    "at": "2026-11-25T15:58:59.216Z",
+    "stamp": "7ee06a3c2add49f1cfd2ea35213ecf993bb6c6560c27d1268c2d3c46122c1dff",
+    "note": ""
+  },
+  "guides": 7,
+  "evaluated_vertices": 7280,
+  "cross_section_points": [
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "editable": true,
+  "output_check": {
+    "blend": {
+      "sha256": "9d59832e7a1498ce857436999015b07a7d4cfa84bc23085e52465ced6de8a479",
+      "bytes": 6895130,
+      "exists_and_hash_matches": true
+    },
+    "preview": {
+      "sha256": "b5727bd5d4e717d737ced91ff0bee9c305e891c570f297d8910f19fc705fe35d",
+      "bytes": 548368,
+      "exists_and_hash_matches": true
+    }
+  },
+  "hair_closure": {
+    "before": {
+      "openEdges": 556,
+      "nonManifoldEdges": 17
+    },
+    "after": {
+      "openEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "surfaceP95Mm": 8.513,
+    "faces": 116830,
+    "success": true,
+    "method": "voxel"
+  },
+  "uv_section_fit": {
+    "closedAssetId": "75674b7f-a77d-441b-a143-7d9f3ce019a5",
+    "measured": {
+      "refit_321ffb95-79ee-488e-bffa-ee703cddc573_2": {
+        "measurement": "guide-uv",
+        "trend": "single-peak",
+        "peakPercent": 74,
+        "rejected": 1,
+        "stations": 65,
+        "measuredWidth": 63,
+        "measuredThickness": 35
+      },
+      "refit_321ffb95-79ee-488e-bffa-ee703cddc573_3": {
+        "measurement": "guide-uv",
+        "trend": "single-peak",
+        "peakPercent": 73,
+        "rejected": 1,
+        "stations": 65,
+        "measuredWidth": 42,
+        "measuredThickness": 44
+      },
+      "refit_321ffb95-79ee-488e-bffa-ee703cddc573_4": {
+        "measurement": "guide-uv",
+        "trend": "single-peak",
+        "peakPercent": 85,
+        "rejected": 0,
+        "stations": 65,
+        "measuredWidth": 37,
+        "measuredThickness": 14
+      },
+      "refit_321ffb95-79ee-488e-bffa-ee703cddc573_5": {
+        "measurement": "guide-uv",
+        "trend": "single-peak",
+        "peakPercent": 69,
+        "rejected": 0,
+        "stations": 65,
+        "measuredWidth": 40,
+        "measuredThickness": 48
+      },
+      "refit_321ffb95-79ee-488e-bffa-ee703cddc573_6": {
+        "measurement": "guide-uv",
+        "trend": "single-peak",
+        "peakPercent": 66,
+        "rejected": 1,
+        "stations": 65,
+        "measuredWidth": 62,
+        "measuredThickness": 44
+      },
+      "refit_321ffb95-79ee-488e-bffa-ee703cddc573_7": {
+        "measurement": "guide-uv",
+        "trend": "single-peak",
+        "peakPercent": 71,
+        "rejected": 0,
+        "stations": 65,
+        "measuredWidth": 64,
+        "measuredThickness": 38
+      },
+      "refit_321ffb95-79ee-488e-bffa-ee703cddc573_1": {
+        "measurement": "guide-uv",
+        "trend": "single-peak",
+        "peakPercent": 69,
+        "rejected": 0,
+        "stations": 65,
+        "measuredWidth": 64,
+        "measuredThickness": 38
+      }
+    },
+    "untouched": []
+  },
+  "history": [
+    {
+      "at": "2026-11-23T23:43:16.026Z",
+      "action": "用户确认",
+      "detail": "reference: "
+    },
+    {
+      "at": "2026-11-25T08:31:18.797Z",
+      "action": "收到重做导线",
+      "detail": "后脑 · 7 束待审核"
+    },
+    {
+      "at": "2026-11-25T08:43:24.206Z",
+      "action": "采用重做导线",
+      "detail": "后脑 · 7 束"
+    },
+    {
+      "at": "2026-11-25T12:56:06.736Z",
+      "action": "登记闭合测量粗模",
+      "detail": "本地生成"
+    },
+    {
+      "at": "2026-11-25T15:58:59.217Z",
+      "action": "用户确认",
+      "detail": "finish: "
+    }
+  ],
+  "limits": "Final project state and saved build, not a new end-to-end rerun or a user study. Closure is a measurement proxy, not a shape-accuracy guarantee."
+}

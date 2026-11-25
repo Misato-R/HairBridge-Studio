@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-25",
+  "publication_account": "Misato-R",
+  "repository_name": "HairBridge-Studio",
+  "clean_checkout": true,
+  "automated_tests": {
+    "total": 34,
+    "passed": 34,
+    "failed": 0
+  },
+  "bundle_check": {
+    "passed": true,
+    "reference_images": 5,
+    "sample_functional_files": 12,
+    "author_developed_installers": 2,
+    "byte_exact_source_zip_check": true
+  },
+  "blender_installer_check": {
+    "success": true,
+    "blender": "5.3.0",
+    "isolated_user_profile": true,
+    "installed_via_blender_operators": true,
+    "modules_from_isolated_profile": true,
+    "english_chinese_catalog_switch": true,
+    "language_saved_in_scene": true,
+    "guides": 1,
+    "registered_groups": 2,
+    "guide_group_and_collection_match": true,
+    "evaluated_vertices": 100,
+    "triangles": 196,
+    "guide_edit_mesh_max_move_mm": 2.980023799891693,
+    "restore_max_error_mm": 0.0,
+    "save_and_reopen": true,
+    "readable_preset_node_groups": {
+      "束.blend": 4,
+      "suifa.blend": 21
+    },
+    "package_sha256": {
+      "surface_hair_curve_tool.zip": "29822223e7a26d96519e715d42027997addffcb02185a44f05ca2ef60c7697c5",
+      "hairbridge_studio.zip": "2b1e18395d531621fc942c647ccde002c44692ab3462797c08413915432f66f2",
+      "stylized_hair_pro-4.3.1.zip": "3cc7fdd4ddd61a292393d057a4cbb36fc3d24d702880f9623d79bb73bbb74dc2"
+    },
+    "limits": "One synthetic strand; background installation, grouping, SHP build, direct edit/restore and file reopen only. No GUI interaction, project return, latest guide-generation acceptance or aesthetic evaluation."
+  },
+  "excluded": [
+    "runtime data",
+    "private teacher attachments",
+    "SHP installer/code",
+    "private Hair Curve Toolkit",
+    "model weights",
+    "credentials",
+    "personal config"
+  ],
+  "limits": "Clean Windows export and isolated Blender synthetic check. No new Tripo/HairDeck generation, general hairstyle evaluation or user study. GitHub CI runs only Node and bundle checks."
+}

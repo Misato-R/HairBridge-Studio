@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "label": "束",
+  "slots": [
+    {
+      "name": "Duplicate Hair Curves",
+      "node_group": "Duplicate Hair Curves",
+      "enabled": true,
+      "expanded": true,
+      "stored_values": "{\"Input_2\": 10, \"Input_4\": 1.0, \"Input_5\": 0.10000000149011612, \"Input_7\": 0.0, \"Input_8\": 0.0, \"Input_6\": false, \"Input_3\": 0}"
+    }
+  ]
+}

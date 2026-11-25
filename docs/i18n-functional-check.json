@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-25",
+  "default_language": "en",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "catalog_entries": 1315,
+  "automated_tests": {
+    "total": 32,
+    "passed": 32,
+    "failed": 0
+  },
+  "browser_observations": {
+    "english_and_chinese_ui": true,
+    "language_persists_after_reload": true,
+    "unsaved_review_note_retained": true,
+    "unsaved_region_name_without_id_retained": true,
+    "section_width_135_percent_retained": true,
+    "task_text_english": true,
+    "copied_task_matches_display": true,
+    "desktop_1440_and_narrow_layouts_checked": true
+  },
+  "project_package_opening_instructions_english": true,
+  "blender_record": "installer-functional-check.json",
+  "screenshot": "english-workflow.jpg",
+  "limits": "Browser checks used a copied project and an isolated onboarding project. No model generation was submitted. The installed desktop add-ons are not replaced automatically; updated ZIPs are supplied. Third-party SHP files are unchanged."
+}

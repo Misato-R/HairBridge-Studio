@@ -1,0 +1,991 @@
+# Canonical Chinese source text<TAB>English product copy. Keep protocol IDs outside this catalog.
+发型工作台	Hair workspace
+把生成的发型，	Turn generated hair
+变成你的作品。	into your own design.
+从一张图片或已有 Tripo 粗模开始，	Start with an image or a Tripo rough model,
+在 Blender 中继续塑造发型。	then refine the hairstyle in Blender.
+生成 · 审核 · 塑形	Generate · Review · Refine
+新建发型项目	New hair project
+新建 Rain Tripo 试跑	Open Rain Tripo study
+载入 Rain HairDeck 示例	Open Rain HairDeck example
+继续项目	Recent projects
+本地项目	Local project
+保存项目包	Export project package
+已保存在本机	Saved locally
+正在重连	Reconnecting
+项目素材	Project assets
+返回项目列表	Back to projects
+素材与来源	Assets and sources
+运行环境	Environment
+下载 Blender 插件 ZIP	Download Blender add-on ZIP
+SHP 与 Surface Hair Curve Tool 需在 Blender 中单独安装。	Install SHP and Surface Hair Curve Tool separately in Blender.
+与 Surface Hair Curve Tool 需在 Blender 中单独安装。	and Surface Hair Curve Tool must be installed separately in Blender.
+准备阶段	Preparation
+导线与精修	Guides and refinement
+导入参考	Import references
+粗模与拆分	Rough model and separation
+导线生成	Create guides
+发流确认	Review hair flow
+Blender 精修	Refine in Blender
+保存结果	Save result
+制作阶段	Workflow stages
+预览内容	Preview content
+导线	Guides
+HairDeck 初稿	HairDeck draft
+整头粗模	Full rough model
+无发头模	Head without hair
+独立头发	Separate hair
+叠加	Overlay
+发片结果	Hair geometry
+参考图对照	Reference comparison
+原图	Source image
+正面	Front
+左侧	Left
+右侧	Right
+左面	Left
+右面	Right
+背面	Back
+顶部	Top
+底部	Bottom
+前三分之四	Front three-quarter
+侧面	Side
+自由视角	Free view
+自由	Free
+统一机位	Standard views
+可旋转的发型三维预览	Interactive 3D hair preview
+等待参考图与导线	Waiting for references and guides
+粗模对照	Rough-model comparison
+并排	Side by side
+染色叠加	Tinted overlay
+粗模不透明度	Rough-model opacity
+添加参考图，开始一个发型项目。	Add a reference image to start a hair project.
+尚未选择发束	No strand selected
+按区域筛选	Filter by region
+选择发束	Select strand
+区域	Region
+发束	Strand
+全部	All
+显示全部	Show all
+带上邻束	Include neighbours
+叠加对齐粗模	Overlay aligned rough model
+显示发流标记	Show flow markings
+发根	Root
+发梢	Tip
+原始标记	Original markings
+同机位版本预览	Compare versions in the same view
+修改前	Before editing
+当前结果	Current result
+原参数 SHP	Baseline SHP
+调整截面	Adjust cross-section
+前版本	Earlier version
+开发与审核记录	Activity and review history
+当前步骤	Current step
+待审核	Needs review
+审核备注	Review notes
+例如：侧面露缝需修正，刘海走向保留。	For example: close the gap at the side; keep the fringe direction.
+记录观察	Save observation
+当前版本的范围	Scope of this version
+项目名称	Project name
+我的发型	My hairstyle
+未命名发型	Untitled hairstyle
+选择项目入口	Choose a starting point
+从一张图片开始	Start from an image
+从已有 Tripo 粗模开始	Start from a Tripo rough model
+你的项目会保存在本机，下次打开可以继续。	Your project is saved locally so you can continue later.
+取消	Cancel
+创建项目	Create project
+关闭	Close
+放大	Enlarge
+下载	Download
+上传	Upload
+导入	Import
+替换	Replace
+更换	Replace
+确认	Confirm
+撤销	Undo
+锁定	Lock
+解锁	Unlock
+收起	Collapse
+已上传	Uploaded
+待上传	Awaiting upload
+已保存	Saved
+已完成	Complete
+已审核	Reviewed
+已确认	Confirmed
+待确认	Needs confirmation
+待调整	Needs adjustment
+处理中	Processing
+已停止	Stopped
+可用	Available
+待配置	Not configured
+待补全	Missing
+待拆分	Awaiting separation
+待标记	Needs marking
+待连接	Awaiting connection
+待提取导线	Awaiting guide extraction
+待确认选区	Confirm selection
+导入粗模 GLB	Import rough-model GLB
+导入粗模	Import rough model
+导入已有导线 JSON	Import existing guide JSON
+导入导线 JSON	Import guide JSON
+导入已有成果	Import existing result
+更换 GLB	Replace GLB
+更换原图	Replace source image
+更换参考图	Replace reference
+上传原图	Upload source image
+上传图片	Upload image
+上传 GLB	Upload GLB
+上传 Tripo 粗模	Upload Tripo rough model
+下载当前 Blender 工程	Download current Blend file
+下载 Blender 工程	Download Blend file
+下载 Blender 插件	Download Blender add-on
+下载拆分文件	Download separated parts
+下载整头粗模 GLB	Download full rough-model GLB
+下载闭合粗模 GLB	Download closed-mesh GLB
+本地推理	Local inference
+本地模型	Local model
+本地生成	Generated locally
+HairDeck 本地模型	Local HairDeck model
+网页 + agent	Browser + agent
+参考图	Reference image
+参考视图	Reference views
+张参考图	 reference images
+当前发片结果	Current hair geometry
+初稿	Draft
+初稿对照	Draft comparison
+拟合初稿	Fitted draft
+拟合导线的初稿	Fitted guide draft
+已有成果	Existing result
+已有成果演示	Saved-result example
+尚未上传原图。	No source image uploaded yet.
+尚未上传粗模。	No rough model uploaded yet.
+尚未添加参考图	No reference image yet
+尚未准备导线。	No guides prepared yet.
+尚未准备导线	No guides prepared yet
+尚无初稿预览。	No draft preview yet.
+尚无 HairDeck 初稿预览。	No HairDeck draft preview yet.
+等待补图	Waiting for reference views
+等待重补	Waiting for replacement view
+补全四视图	Complete four views
+补全并确认四视图	Complete and confirm four views
+补图任务已复制。	Reference-view task copied.
+复制补图任务	Copy reference-view task
+四视图补图任务	Four-view reference task
+准备补图任务	Prepare reference-view task
+准备四视图补图任务	Prepared reference-view task
+查看补图任务	View reference-view task
+重补	Regenerate
+重新补	Regenerate
+撤回视图确认	Revoke view approval
+确认四视图，准备粗模	Confirm views and prepare rough model
+确认参考，继续准备	Confirm references and continue
+确认参考，查看粗模	Confirm references and view rough model
+确认发型参考	Confirm hair references
+已确认参考	References confirmed
+参考图已添加	Reference image added
+参考图已确认	Reference confirmed
+添加或替换视图	Added or replaced view
+确认一张参考图	Confirmed reference view
+左右以角色自身为准。	Left and right refer to the character's own sides.
+用户上传的原图	User-provided source image
+从一张原图开始	Start with one source image
+上传原图，再补齐四视图。	Upload the source image, then complete the four views.
+从一张图补全正面、左侧、右侧和背面，检查后再生成发型。	Complete front, left, right and back views from one image. Review them before generating hair.
+对照发际线、分缝和两侧轮廓。点击图片可放大检查，再逐张确认。	Check the hairline, parting and side silhouettes. Enlarge each image, then approve each view.
+让 Codex 补齐缺少的视图，或在对应位置上传你已有的图。	Ask Codex to complete missing views, or upload your own images to the matching slots.
+把这条补图任务发到当前 Codex 对话。收到图片后，在工作台里逐张检查和确认。	Send this task to the current Codex chat. Review and confirm each returned image in the workspace.
+添加一张能看清发型的参考图。	Add a reference image that clearly shows the hairstyle.
+添加参考图后在这里查看。	Your reference image will appear here.
+添加角色参考图	Add character reference
+添加参考图	Add reference
+上传一张 PNG、JPEG 或 WebP 图片。	Upload a PNG, JPEG or WebP image.
+上传一个 GLB 文件，即可旋转查看粗模。	Upload a GLB to inspect the rough model in 3D.
+上传并预览 GLB 文件。	Upload and preview a GLB file.
+粗模生成与拆分任务	Rough-model generation and separation task
+粗模生成与拆分任务内容	Rough-model task instructions
+准备粗模生成与拆分任务	Prepare rough-model generation and separation
+准备新的粗模任务	Prepare a new rough-model task
+准备粗模拆分任务	Prepare separation task
+生成并拆分粗模	Generate and separate rough model
+生成与拆分任务	Generation and separation task
+查看待执行的粗模任务	View pending rough-model task
+查看已生成的拆分任务	View prepared separation task
+手动导入或下载拆分文件	Import or download separated parts
+更换粗模候选	Replace rough-model candidate
+使用整头粗模继续	Continue with full rough model
+确认粗模，继续准备	Confirm rough model and continue
+确认头皮和头发	Confirm head and hair
+确认头发与头部拆分	Confirm head–hair separation
+审核头模和头发	Review head and hair
+拆分头模和头发	Separate head and hair
+头模任务	Head separation task
+拆分任务	Separation task
+打开 Tripo Studio	Open Tripo Studio
+复制给 agent	Copy for agent
+复制任务	Copy task
+给 Codex 的任务	Task for Codex
+交给 Codex 的任务内容	Instructions for Codex
+复制项目文件路径	Copy project path
+任务已复制。	Task copied.
+任务已复制，请粘贴到当前 Codex 对话。	Task copied. Paste it into the current Codex chat.
+项目路径已复制。	Project path copied.
+用户审核	User review
+用户确认	User approval
+用户记录	User note
+审核目录无效。	Invalid review directory.
+粗模已保存	Rough model saved
+粗模参考	Rough-model reference
+粗模原发型	Original rough-model hair
+粗模选区	Rough-model selection
+粗模分区建议	Suggested hair regions
+粗模与拆分结果	Rough model and separated parts
+三份模型	Three model files
+部件	Part
+查看整头粗模	View full rough model
+查看无发头模	View head without hair
+查看独立头发	View separate hair
+查看拆分结果	View separated parts
+叠加查看	View overlay
+头皮与头发叠加	Head and hair overlay
+头模和头发就绪后可叠加查看。	Overlay the head and hair once both are ready.
+头皮与头发已确认。准备阶段完成。	Head and hair confirmed. Preparation is complete.
+整头粗模、头模和头发已就绪，等待叠加审核。	The full model, head and hair are ready for overlay review.
+整头粗模、无发头模和独立头发来自同一个候选，可在原坐标中叠加查看。	The full model, head and hair come from the same candidate and share its original coordinate frame.
+三份 GLB 来自同一个粗模候选，沿用该候选的坐标、比例和朝向。	All three GLBs come from one candidate and retain its coordinates, scale and orientation.
+用四视图生成一批候选，从同一个候选回填整头粗模、无发头模和独立头发。	Generate candidates from the four views, then return the full model, head and hair from one candidate.
+用已确认的四视图生成一批粗模候选，从同一个候选导出整头粗模、无发头模和独立头发。	Use the approved views to generate rough-model candidates. Export the full model, head and hair from one candidate.
+等待回填整头粗模、无发头模和独立头发。	Waiting for the full rough model, head and hair.
+等待无发头模 GLB。	Waiting for a head GLB without hair.
+等待独立头发 GLB。	Waiting for the separate hair GLB.
+在「粗模与拆分」页叠加审核。确认头模和头发后进入导线生成。	Review the overlay in Rough model and separation. Confirm the head and hair before creating guides.
+导入与当前粗模坐标一致的无发头模和独立头发 GLB，再叠加检查贴合。	Import head and hair GLBs in the current model's coordinate frame, then overlay them to check the fit.
+选择从 Tripo 导出的 GLB 文件。	Choose a GLB exported from Tripo.
+未登录？点「打开 Tripo Studio」登录自己的账号。若 agent 使用另一个浏览器，请在它打开的页面登录。	Not signed in? Open Tripo Studio and sign in with your account. If the agent uses another browser, sign in there.
+首次使用请在 agent 操作的浏览器中登录 Tripo。将任务贴到当前 Codex 对话。	Sign in to Tripo in the browser used by the agent, then paste the task into the current Codex chat.
+点「复制给 agent」，把任务粘贴到当前 Codex 对话。	Choose Copy for agent and paste the task into the current Codex chat.
+切换机位检查发际线、两侧和后脑，确认粗模是否可用。	Inspect the hairline, sides and back from several views before accepting the rough model.
+对照四张参考图，检查发际线、两侧和后脑。	Compare all four references and inspect the hairline, sides and back.
+生成或导入后，素材会出现在这里。	Generated or imported assets will appear here.
+准备导线拟合任务	Prepare guide-fitting task
+拟合发束导线	Fit hair guides
+用已确认的头发拟合发束走向，用头皮检查发根贴合。收到结果后导入导线 JSON。	Fit guides to the approved hair and check root contact against the head. Import the returned guide JSON.
+以整头粗模为参考，先标记发束区域、起止位置及关键转折，再拟合连贯的主导线。	Use the full model to identify strands, endpoints and major bends, then fit continuous guides.
+在粗模坐标系内拟合主导线，收到结果后导入导线 JSON。	Fit guides in the rough model's coordinate frame, then import the returned guide JSON.
+将任务贴到当前 Codex 对话。收到导线 JSON 后，点「导入导线 JSON」并进入「发流确认」。	Paste the task into the current Codex chat. Import the returned guide JSON, then open Review hair flow.
+准备导线后，在这里确认发流。	Review the hair flow here once guides are ready.
+已有导线。可以进入「发流确认」检查走向。	Guides are ready. Open Review hair flow to inspect their direction.
+选择发束，检查发根、发梢与跨区走向。需要修正的地方可以记在备注里。	Select a strand and inspect its root, tip and route across regions. Record any changes in the notes.
+选中发束后，核对多机位中的走向，再记录处理方案。	Select a strand, inspect its flow from several views, then record your decision.
+发流方向	Flow direction
+发流导线	Hair-flow guides
+发流线索	Flow clues
+按组确认发流	Review flow by group
+保存这束的确认	Save strand review
+确认发束走向	Confirm strand direction
+确认发流，进入 Blender	Confirm flow and open Blender stage
+处理方案	Review decision
+保留	Keep
+调整走向	Adjust direction
+连接到另一束	Connect to another strand
+拆分	Split
+交换根梢	Swap root and tip
+目标发束	Target strand
+发束备注	Strand notes
+例如，耳上中段向外移少许	For example, move the middle section above the ear slightly outward
+记录发流决定	Saved flow decision
+生成 Blender 项目	Build Blender project
+重新生成 Blender 项目	Rebuild Blender project
+继续 Blender 精修	Continue in Blender
+进入 Blender 精修	Refine in Blender
+下载 Blender 工程	Download Blend file
+确认当前成果	Approve current result
+确认和保存结果	Approve and save result
+确认当前成果	Approve current result
+同机位比较和审核	Compare and review in the same view
+切换版本时保留机位和缩放	Keep camera and zoom when switching versions
+切换对照时保留机位和缩放。	Camera and zoom are preserved when switching comparisons.
+在同一机位切换修改前后，检查发际线、覆盖和相邻发束的搭接。	Compare versions in the same view. Check the hairline, coverage and overlap between neighbouring strands.
+在同一机位检查原发型和本次勾选的发片。	Compare the original hair and selected generated strands from the same view.
+再保存一版精修成果即可对照。	Save another refinement version to compare.
+暂无上一版本	No earlier version
+恢复保存版本	Restore saved version
+将所选版本设为当前	Make selected version current
+已恢复所选版本。	Selected version restored.
+已确认当前版本	Current version approved
+两版 SHP 使用同一组导线。切换时保留机位和缩放。	Both SHP versions use the same guides. Camera and zoom are preserved.
+审核重做导线	Review replacement guides
+编辑头发选区	Edit hair selection
+编辑发流选区	Edit flow selection
+自动分区	Suggest regions
+准备自动分区	Request region suggestions
+查看分区	View regions
+确认自动分区	Accept region suggestions
+新增区块	Add region
+新建区块	Create region
+新区域名称	New region name
+移除区块	Remove region
+返回区块	Back to regions
+返回分区确认	Back to region review
+确认当前选区	Confirm current selection
+确认发流选区	Confirm flow selection
+确认发流区块	Confirm flow region
+保存选区草稿	Save selection draft
+选区画笔	Selection brush
+巡视	Navigate
+加选画笔	Add to selection
+减选画笔	Subtract from selection
+加选整段	Add connected segment
+减选整段	Subtract connected segment
+画笔直径	Brush diameter
+清理选区边缘	Clean selection boundary
+比较清理前后	Compare cleanup
+清理前	Before cleanup
+清理后	After cleanup
+采用清理结果	Apply cleanup
+取消预览	Cancel preview
+未确认选区	Unconfirmed selection
+已确认选区	Selection confirmed
+区块	Region
+发型区块	Hair regions
+目标区块	Target region
+调整发束归属	Change strand region
+整束归属预览	Whole-strand assignment preview
+整束移到目标区块	Move entire strand to target region
+区域候选发束	Candidate strands in this region
+按区域重新选发束	Reselect strands by region
+按发流线索加减选	Add or subtract using flow clues
+让 Codex 根据已审核的头发粗模提出区块。收到建议后，可以逐区修边和确认。	Ask Codex to suggest regions on the reviewed hair mesh. Refine and confirm each region after it returns.
+点选模型上的颜色区块或切换视角，检查当前高亮范围。	Select a coloured region and inspect its highlighted coverage from several views.
+切换视角检查发片边缘，再加选或减选。	Inspect the strand boundary from another view, then add or subtract faces.
+在可见头发表面涂抹	Paint on the visible hair surface
+画笔作用于可见的头发表面。改用「巡视」可旋转模型。	The brush affects visible hair faces. Switch to Navigate to rotate the model.
+本区块已划出范围，导线尚待提取。	The region is selected; guides still need to be extracted.
+准备本区导线拟合任务	Prepare guide fitting for this region
+重新生成导线	Regenerate guides
+准备重做任务	Request replacement guides
+取消重做任务	Cancel replacement task
+等待 Codex 重做导线	Waiting for replacement guides from Codex
+等待重做结果返回。	Waiting for replacement guides.
+查看新版	View replacement
+采用新版导线	Adopt replacement guides
+放弃新版	Discard replacement
+新版导线	Replacement guides
+当前导线	Current guides
+导线对比	Guide comparison
+同机位对比导线	Compare guides in the same view
+把任务复制给 Codex。等待期间仍可查看当前导线。	Copy the task for Codex. You can inspect the current guides while waiting.
+检查漏束和走向，按实际可辨认发片调整。	Check for missing strands and incorrect flow; follow the strands visible on the model.
+例如：左右外侧有漏束，请沿发梢重新辨认。	For example: strands are missing at the outer sides; trace them again from the tips.
+希望改哪里	Requested changes
+确认这一组导线	Confirm these guides
+返回导线生成	Back to guide creation
+进入导线生成	Create guides
+进入发流确认	Review hair flow
+进入本区导线	Open guides for this region
+进入本组导线	Open guides for this group
+本组勾选	Selected in this group
+生成勾选发束	Build selected strands
+生成本组 SHP	Build SHP for this group
+查看 SHP 预览	View SHP preview
+加入 SHP	Add to SHP
+生成本组时保留其他组上次确认的发束。	Building this group preserves the last confirmed strands in other groups.
+勾选要加入 SHP 的发束，再点「生成本组 SHP」。	Select the strands to include, then choose Build SHP for this group.
+勾选本组的发束并标好点，就可以生成。	Select the strands and mark their points before building.
+勾选本组候选并采用建议点	Select this group's candidates and use suggested points
+生成和精修发束	Build and refine strands
+补画导线	Draw an extra guide
+手动补画	Manually drawn
+补一条导线	Add a guide
+补画区块导线	Draw a guide in this region
+取消补画	Cancel guide drawing
+确认并加入本组	Confirm and add to this group
+移除这条补线	Remove this guide
+移除补画导线	Removed hand-drawn guide
+这条补画导线已移除。	This hand-drawn guide has been removed.
+沿同一片头发依次点 3–5 个点。黄色是待辨认发面，浅蓝是已有导线。	Place 3–5 points along one strand. Yellow marks unresolved faces; light blue shows existing guides.
+先点起点或容易辨认的发梢。	Start at the root or an easily identified tip.
+可以拖动已有的点，或撤销后再补点。	Drag an existing point, or undo before placing another point.
+点击放点 · 拖动编号改点	Click to place points · Drag numbered points to edit
+请沿发束放置起点、经过点和发梢。	Place the start, intermediate points and tip along the strand.
+加入第三弯	Add third bend
+改用两个弯位	Use two bends
+采用这束建议点	Use suggested points for this strand
+确认建议点	Confirm suggested points
+调整弧度	Adjust curvature
+恢复本段弧度	Reset segment curvature
+选一段导线	Select a guide segment
+扩大可拖范围	Expand movement area
+恢复原范围	Restore original area
+反转起点和发梢	Reverse start and tip
+已锁定	Locked
+已标记	Marked
+已标记 · 可重定位	Marked · Can reposition
+待重新标记	Needs re-marking
+起点	Start
+经过点	Intermediate point
+扎点端	Tie end
+贴头皮端	Scalp end
+根部	Root
+中段	Middle
+扎点附近	Near tie point
+扎点下方	Below tie point
+贴头皮附近	Near scalp
+额前	Forehead
+额前收束	Front taper
+后侧	Rear
+后侧接入	Rear transition
+后颈发梢	Nape tip
+马尾尖梢	Ponytail tip
+马尾扎点	Ponytail tie point
+刘海	Fringe
+左侧发束	Left-side strands
+右侧发束	Right-side strands
+头顶	Crown
+后脑	Back of head
+马尾主束	Main ponytail
+马尾	Ponytail
+鬓边 S 卷	Side S-curl
+耳上长束	Long strand above ear
+后脑中央发片	Centre back strand
+后脑侧下发片	Lower-side back strand
+后脑另一侧发片	Opposite back strand
+后脑左中束	Back left-middle strand
+后脑左内束	Back left-inner strand
+后脑中央束	Back centre strand
+后脑右内束	Back right-inner strand
+后脑右中束	Back right-middle strand
+后脑右外束	Back right-outer strand
+后脑左外束	Back left-outer strand
+截面调整	Cross-section controls
+查看已生成	View built result
+查看滑块预览	View live preview
+截面基准	Cross-section source
+当前发束的截面基准	Cross-section source for this strand
+原截面	Original section
+拟合截面	Fitted section
+恢复拟合截面	Restore fitted section
+恢复四点截面	Restore four-point section
+恢复这束的四点截面	Restore this strand's four-point section
+截面形状	Section shape
+沿用基准	Use source shape
+四点	Four-point
+椭圆	Ellipse
+块状圆角	Rounded block
+当前截面轮廓	Current section profile
+沿发束选择区间	Choose range along strand
+局部宽度	Local width
+局部厚度	Local thickness
+整体宽度	Overall width
+整体厚度	Overall thickness
+整体	Whole strand
+截面圆润度	Section roundness
+椭圆饱满度	Ellipse fullness
+收窄肩部	Narrower shoulders
+椭圆 · 上调使肩部更饱满	Ellipse · Increase for fuller shoulders
+脊线横向偏移	Lateral ridge offset
+上下厚度分配	Upper/lower thickness balance
+选区两端截面	Selection end sections
+选择选区边界	Choose selection boundary
+选区起点	Selection start
+选区终点	Selection end
+边界宽度	Boundary width
+边界厚度	Boundary thickness
+边界轮廓	Boundary profile
+恢复这端	Reset this end
+扎点收紧 · 头皮端加宽	Tighten tie end · Widen scalp end
+贴头皮端内嵌	Inset scalp end
+附加内嵌深度	Additional inset depth
+宽厚作用于当前整束。	Width and thickness affect the entire current strand.
+宽厚 100% 以原截面尺寸为准。	100% width/thickness uses the original section dimensions.
+宽厚 100% 以粗模拟合尺寸为准。	100% width/thickness uses the rough-model fit.
+以选区内侧的截面为 100%，修改在边界附近渐变。	100% uses the section just inside the selection; adjustments blend in near the boundary.
+以藏住端面为起点，深度以毫米计。位移向前平滑过渡。	Start by hiding the end cap. Depth is in millimetres, with displacement blended along the strand.
+青色高亮表示宽厚的作用范围，区间边缘会渐变。	Cyan highlights the width/thickness range; changes blend out at its edges.
+点数值可输入倍率或百分比，例如 3 或 300%。	Click a value to enter a multiplier or percentage, such as 3 or 300%.
+输入倍率或百分比，例如 3 或 300%	Enter a multiplier or percentage, such as 3 or 300%
+小 → 大 → 小	Narrow → Wide → Narrow
+小 → 大	Narrow → Wide
+大 → 小	Wide → Narrow
+闭合粗模与 UV 截面	Closed mesh and UV sections
+闭合测量粗模	Closed measurement mesh
+查看闭合粗模	View closed mesh
+生成闭合粗模	Create closed measurement mesh
+重新生成闭合副本	Rebuild closed copy
+快速封口	Quick closure
+沿 UV 测量与平滑截面	Measure and smooth sections along UV
+沿导线取样	Sample along guide
+网格 UV	Mesh UV
+测量基准为	Measurement space: 
+截面趋势为	Section trend: 
+用已确认的独立头发生成闭合副本，供逐段测量。	Create a closed copy of the approved hair mesh for section measurements.
+沿发流逐段测量，宽度和厚度拟合为单调或单峰。缺少可用 UV 时按导线建立测量坐标。	Measure along the hair flow and fit monotonic or single-peak width and thickness trends. Use guide coordinates when usable UVs are unavailable.
+发面样本不足的位置沿用基础估值。	Keep the baseline estimate where surface samples are insufficient.
+已联合拟合发束两侧。可继续微调宽度、厚度与截面形状。	Both sides are fitted together. You can further adjust width, thickness and profile.
+正在后台生成 SHP	Building SHP geometry
+后台生成 SHP	Build SHP geometry
+正在后台生成。	Building in the background.
+正在生成 HairDeck 初稿	Generating HairDeck draft
+生成 HairDeck 初稿	Generate HairDeck draft
+重新生成 HairDeck 初稿	Regenerate HairDeck draft
+生成 HairDeck 导线	Generate HairDeck guides
+从图片生成 HairDeck 导线	Generate HairDeck guides from image
+生成种子	Random seed
+只使用一张参考图。发束走向、覆盖与体积可能和 Tripo 粗模差异较大，初稿仅供对照。	uses one reference image. Flow, coverage and volume may differ substantially from the Tripo model; use the draft for comparison.
+从单张参考图预测发流，结果可能与 Tripo 粗模差异较大。	Predict hair flow from one reference image. Results may differ substantially from the Tripo rough model.
+生成 HairDeck 导线，或导入已有的导线 JSON。	Generate HairDeck guides or import an existing guide JSON.
+生成时采用 HairDeck 参考。	Use the HairDeck reference for generation.
+采用 HairDeck 参考	Use HairDeck reference
+采用标记后导线	Use marked guides
+标记前	Before marking
+标记后	After marking
+发片 · 金色对照	Hair geometry · Gold comparison
+金色为粗模	Gold: rough model
+截面预览 · 局部高亮	Section preview · Active range highlighted
+截面预览	Section preview
+原始发束初稿	Original strand draft
+拟合截面 SHP	SHP with fitted sections
+混合截面 SHP	SHP with mixed sections
+封口 · UV 平滑截面	Closed mesh · Smoothed UV sections
+生成勾选的	Build selected
+本地推理进行中，完成后会在这里显示预览。	Local inference is running. The preview will appear here when ready.
+正在启动处理进程	Starting process
+正在处理	Processing
+停止此任务	Stop task
+停止任务	Stopped task
+启动任务	Started task
+任务完成	Task completed
+任务失败	Task failed
+运行记录	Run log
+工程已保存	Blend file saved
+恢复项目	Recovered project
+恢复成果版本	Restored result version
+接收 Blender 精修	Received Blender refinement
+插件已返回人工精修副本。	The add-on returned an edited review copy.
+处理完成，请审核结果。	Processing complete. Review the result.
+粗模已返回，请对照参考图检查轮廓。	Rough model returned. Compare its silhouette with the references.
+粗模及拆分结果已返回，请叠加审核头模和头发。	Rough model and parts returned. Review the head–hair overlay.
+拆分结果已返回，请检查头皮与头发。	Separated parts returned. Check the head and hair.
+闭合测量粗模已就绪。	Closed measurement mesh ready.
+初稿已就绪，可在「HairDeck 初稿」查看。	Draft ready. Open HairDeck draft to inspect it.
+素材已保存到当前项目。	Asset saved to the current project.
+右键拖动平移 · 滚轮缩放	Right-drag to pan · Scroll to zoom
+拖动旋转 · 滚轮缩放	Drag to rotate · Scroll to zoom
+点击颜色区块选区	Click a coloured region to select it
+点击导线选束	Click a guide to select its strand
+点击候选发片选束	Click a candidate strand to select it
+点击发片标记	Click a strand to mark it
+在发片上标记	Mark on the strand surface
+换视角检查发束走向	Check hair flow from another view
+点编号可查看移动范围。可以拖动未锁定的点，或点击新位置。	Select a numbered point to see its movement area. Drag an unlocked point or click a new position.
+浅蓝线是同组的其他发束。点当前发束的编号可查看移动范围。	Light-blue lines show other strands in this group. Select a numbered point to inspect its movement area.
+点模型上的发片或从列表选择。黄色显示这一束会一起移动的范围。	Select a strand on the model or in the list. Yellow shows the area that moves with it.
+点选新位置或拖动编号。	Click a new position or drag a numbered point.
+黄色是这次扩大的范围。	Yellow shows the expanded movement area.
+连接、拆分和交换根梢作为精修决定保存，在 Blender 中执行。	Connection, splitting and root/tip reversal are saved as refinement decisions to carry out in Blender.
+工程包含可编辑导线和已确认的头皮、头发参考。在 Blender 大纲视图分别显示参考，检查发根贴合与穿插。	The Blend file includes editable guides and approved head/hair references. Toggle them in the Outliner to check root contact and intersections.
+工程包含两束可编辑导线和同一组检查机位。用 HairBridge 面板编辑所选发束并返回审核副本。	The Blend file includes two editable guides and matching review cameras. Edit a strand in the HairBridge panel and return a review copy.
+生成独立的 Blender 工程进行精修。使用来自其他模型的几何做表面修正时，先核对位置、比例和朝向。	Build a separate Blend file for refinement. Before surface correction against another model, verify position, scale and orientation.
+请求失败	Request failed
+三维预览不可用：	3D preview unavailable:
+预览加载失败：	Preview failed to load:
+处理失败	Processing failed
+失败。	failed.
+有未保存修改	Unsaved changes
+请等待当前任务完成。	Wait for the current task to finish.
+项目正在处理，请等待完成或先停止任务。	The project is processing. Wait for completion or stop the task first.
+已有生成任务运行，请稍后再试。	A generation task is already running. Try again when it finishes.
+文件或项目不存在。	File or project not found.
+素材不存在。	Asset not found.
+未知任务。	Unknown task.
+未知操作。	Unknown operation.
+未知分区操作。	Unknown region operation.
+未知审核阶段。	Unknown review stage.
+操作不存在。	Operation not found.
+请求 ID 无效。	Invalid request ID.
+项目 ID 无效。	Invalid project ID.
+需要有效项目 ID。	A valid project ID is required.
+请求已失效。	This request is no longer current.
+请求已失效，不能登记。	This request is no longer current and cannot accept results.
+任务已结束。	This task has ended.
+任务未通过检查。	The task failed validation.
+任务超时，已停止。	The task timed out and was stopped.
+进程退出：	Process exited:
+服务中断；请检查已有输出后重试。	The service stopped unexpectedly. Check existing outputs before retrying.
+中断任务已标记，可检查输出后重试。	Interrupted tasks have been flagged. Check their outputs before retrying.
+仅接受本机同源访问。	Only same-origin requests from this machine are accepted.
+不支持的素材类型。	Unsupported asset type.
+文件过大（限 100 MB）。	File exceeds the 100 MB limit.
+请上传有效的 PNG、JPEG 或 WebP 图片。	Upload a valid PNG, JPEG or WebP image.
+参考图限 20 MB。	Reference images must be no larger than 20 MB.
+请上传完整的 GLB 2	Upload a complete GLB 2
+需要完整的 GLB 2	A complete GLB 2
+测量参考需要使用 GLB 2	The measurement reference must use GLB 2
+请使用贴图和几何内嵌的 GLB，不支持外部资源链接。	Use a GLB with embedded geometry and textures. External resource links are not supported.
+需要有效的 GLB 文件，大小限 100 MB。	Choose a valid GLB no larger than 100 MB.
+需要有效的 PNG、JPEG 或 WebP 图片，大小限 20 MB。	Choose a valid PNG, JPEG or WebP image no larger than 20 MB.
+需要有效的图片文件，大小限 20 MB。	Choose a valid image no larger than 20 MB.
+测量需要未压缩的静态网格。	Measurement requires an uncompressed static mesh.
+缺少内嵌网格。	Embedded mesh missing.
+场景层级无效。	Invalid scene hierarchy.
+路径无效。	Invalid path.
+试跑素材路径无效。	Invalid study asset path.
+试跑素材清单不完整。	The study asset manifest is incomplete.
+试跑需正面、左右侧面和背面参考。	The study requires front, left, right and back references.
+此电脑尚未配置 HairDeck 本地模型。	The local HairDeck model is not configured on this machine.
+请先配置本机 Blender。	Configure the local Blender executable first.
+本机 Rain 示例未找到。可新建项目并导入自己的参考图和 cards JSON。	The local Rain example was not found. Create a project and import your own reference and cards JSON.
+请先上传 GLB。	Upload a GLB first.
+请先上传一张原图。	Upload a source image first.
+请先上传并检查粗模 GLB。	Upload and inspect a rough-model GLB first.
+请先添加参考图。	Add a reference image first.
+请先添加并确认参考图。	Add and approve the references first.
+请先确认参考图。	Approve the references first.
+请先确认参考图并准备导线。	Approve the references and prepare guides first.
+需要已确认的参考图。	Approved references are required.
+请先导入或取得当前粗模 GLB。	Import or generate the current rough-model GLB first.
+请选择从图片或已有粗模开始。	Choose an image or an existing rough model as your starting point.
+请先逐束保存发流检查结果。	Save a flow review for each strand first.
+请选择当前项目的发束和有效的发流决定。	Choose a strand from this project and a valid review decision.
+请选择要连接的另一束。	Choose another strand to connect to.
+请先生成或返回 Blender 成果。	Build or return a Blender result first.
+输入已经改变，请重做此阶段。	The input has changed. Repeat this stage.
+这版成果与当前输入不匹配。	This result does not match the current input.
+精修副本基于旧的输入，请检查项目再返回。	The refinement copy uses earlier input. Check the project before returning it.
+项目已更新，请刷新后重试。	The project has changed. Refresh and try again.
+项目已更新，请刷新后检查分区。	The project has changed. Refresh and check the regions.
+项目已更新，请刷新页面后检查标记。	The project has changed. Refresh and check the markings.
+项目或导线已更新，请刷新后重试。	The project or guides have changed. Refresh and try again.
+请先完成自动分区。	Complete the region suggestions first.
+当前项目已有分区。	This project already has regions.
+当前项目没有可编辑的头发网格。	This project has no editable hair mesh.
+当前项目没有独立的四视图审核。	This project has no separate four-view review.
+请选择有效的区块。	Choose a valid region.
+请选择有效的发束和目标区块。	Choose a valid strand and target region.
+请输入 1–24 字的唯一区块名称。	Enter a unique region name using 1–24 characters.
+请先选中一片头发表面。	Select a hair surface first.
+选区包含无效的网格面。	The selection contains invalid mesh faces.
+当前选区边缘无需清理。	This selection boundary needs no cleanup.
+候选发束归属冲突，请检查选区。	Candidate strand assignments conflict. Check the selection.
+拟合范围超出了当前头发网格。	The fitting area extends beyond the current hair mesh.
+请先确认这个选区。	Confirm this selection first.
+请先确认选区并完成本区导线拟合。	Confirm the selection and fit this region's guides first.
+请先确认选区并拟合本组导线。	Confirm the selection and fit this group's guides first.
+请先确认这一组导线。	Confirm these guides first.
+请先处理本区重做任务。	Resolve this region's replacement task first.
+本区已有重做任务，请先处理或取消。	This region has a replacement task. Complete or cancel it first.
+重做任务已失效，请重新准备。	The replacement task is no longer current. Prepare a new task.
+当前重做任务已失效，请重新准备。	The replacement task is no longer current. Prepare a new task.
+方案与当前重做任务或选区不匹配。	The proposal does not match the current task or selection.
+请核对保留导线、新锚点方案和待辨认记录。	Check retained guides, new anchors and unresolved flow notes.
+请为每条新导线使用不同的名称。	Give each new guide a unique name.
+导线编号无效或已登记。	The guide ID is invalid or already registered.
+分区任务已经更新。	The region task has changed.
+区块已修改，请准备新任务。	The region has changed. Prepare a new task.
+当前网格已变化，请重新准备。	The mesh has changed. Prepare a new task.
+当前模型和选区的任务已失效。	The task no longer matches the model and selection.
+请复制已选中的任务文字。	Copy the selected task text.
+请至少标记三个点。	Mark at least three points.
+请把点放在当前选区的可见头发上。	Place the point on visible hair within the current selection.
+相邻点太近，请拉开一点。	Adjacent points are too close. Space them farther apart.
+这两个点之间没有连续的选中发面。请换视角或先检查选区。	There is no connected selected surface between these points. Change view or check the selection.
+这段绕行太远，请在同一片头发的中途补一个点。	This route detours too far. Add an intermediate point on the same strand.
+这段发面折得太急，请调整附近的点位。	The surface bends too sharply here. Adjust the nearby points.
+这个点已锁定。	This point is locked.
+请先解锁这个点，再去模型上重定位。	Unlock this point before repositioning it on the model.
+请先解锁第三弯，再改用两个弯位。	Unlock the third bend before switching to two bends.
+这个位置超出了当前点的发片范围。请在这束头发上点选。	This position is outside the point's allowed strand area. Choose a point on this strand.
+这个点在扩大范围内。先把它移回原范围，或撤销上次移动。	This point is in the expanded area. Move it back or undo the last move first.
+点位已偏离发面，请重新点选。	The point is off the hair surface. Place it again.
+请点选当前区块中可见的头发。	Choose visible hair in the current region.
+请点这片头发或靠近它的额前尖端。	Click this strand or near its front tip.
+当前点位与已有 HairDeck 候选偏差过大。	The marked points differ too much from the existing HairDeck candidate.
+当前点位与 HairDeck 候选偏差较大，已采用标记后导线。	The points differ substantially from the HairDeck candidate; the marked guides were used.
+这束没有通过匹配的 HairDeck 候选。	No matching HairDeck candidate was accepted for this strand.
+这束试跑使用粗模导线。	This study strand uses rough-model guides.
+本次勾选列表与导线文件不匹配。	The selected strand list does not match the guide file.
+只能调整本次已生成的发束。	Only strands included in the current build can be adjusted.
+请勾选至少一束有效的候选发束。	Select at least one valid candidate strand.
+请先完成勾选发束的标记。	Finish marking the selected strands first.
+请先生成当前勾选发束的 SHP 预览。	Build an SHP preview of the selected strands first.
+请先审核导线并确认进入 Blender。	Review and approve the guides before the Blender stage.
+请先确认导线并生成 Blender 项目。	Approve the guides and build a Blender project first.
+截面设置与已确认的导线不匹配。	The section settings do not match the approved guides.
+截面数值或选区范围无效。	Invalid section values or selection range.
+截面形状无效。	Invalid section shape.
+截面偏移无效。	Invalid section offset.
+截面轮廓无法采样。	The section profile cannot be sampled.
+两端截面设置无效。	Invalid end-section settings.
+两端截面的选区设置无效。	Invalid end-section range.
+发束边缘拟合参数无效。	Invalid strand-edge fitting parameters.
+选定的截面基准与当前导线不匹配。	The chosen section source does not match the current guides.
+请为每束发片选择一个可用的截面基准。	Choose an available section source for each strand.
+当前选区内没有足够的发面可拟合截面。	There is insufficient hair surface in the selection to fit sections.
+现有导线附近没有足够的截面样本。请检查导线与闭合粗模是否贴合。	Insufficient section samples near the guides. Check their fit against the closed mesh.
+请先生成闭合测量粗模。	Create a closed measurement mesh first.
+请先生成当前独立头发的闭合粗模。	Create a closed copy of the current separate hair first.
+独立头发已更新，请刷新后再生成闭合粗模。	The separate hair has changed. Refresh before creating a closed copy.
+当前工作台提供本地闭合，请刷新页面后继续。	Local mesh closure is now available. Refresh to continue.
+请刷新项目，并确认已有导线、SHP 初稿和对应的闭合测量粗模。	Refresh the project and confirm that guides, an SHP draft and the matching closed mesh are available.
+贴头皮端的内嵌深度无效。	Invalid scalp-end inset depth.
+贴头皮端内嵌需要已审核的独立头皮网格。	Scalp-end inset requires an approved separate head mesh.
+头皮参考没有可用于内嵌的三角面。	The head reference has no triangles suitable for inset.
+请选择具有贴头皮端的后脑发束。	Choose a back-of-head strand with a scalp end.
+请选择发束并调整截面。	Select a strand and adjust its section.
+导线清单与初稿不匹配。	The guide manifest does not match the draft.
+导线采样点总数超过限制。	The total guide sample count exceeds the limit.
+导线长度为零。	A guide has zero length.
+需要非空 HairDeck cards 数组（最多 2000 束）。	A non-empty HairDeck cards array is required (up to 2,000 strands).
+发束 shape 或 seq 格式不正确。	Invalid strand shape or seq format.
+发束样本必须包含 8 个有限数值、有效尺寸和方向。	Each sample must contain eight finite values with valid dimensions and direction.
+请先叠加审核并确认头模与头发。	Review and approve the head–hair overlay first.
+请先确认当前粗模的独立头发和头皮。	Approve the separate hair and head for the current rough model first.
+请先登记无发头模与独立头发两个 GLB。	Register both the head and separate hair GLBs first.
+请选择确认拆分或使用整头粗模。	Confirm the separation or choose to use the full rough model.
+请通过同一条粗模任务一起登记整头粗模、头模和头发。	Register the full model, head and hair together under the same rough-model task.
+请使用 attach-p2 登记同一候选的三份 GLB。	Use attach-p2 to register all three GLBs from one candidate.
+任务请使用 attach-p2 登记同一候选的整头、无发头模和独立头发。	For this task, use attach-p2 to register the full model, head and hair from one candidate.
+当前粗模或参考图已更换，请重新核对拆分。	The rough model or references have changed. Review the separation again.
+当前粗模或参考图已更换，请重新选择文件。	The rough model or references have changed. Select the files again.
+粗模已更换，请查看当前模型后再确认。	The rough model has changed. Inspect it before confirming.
+拆分部件已更换，请查看当前版本后再确认。	The separated parts have changed. Inspect them before confirming.
+视图已更换，请查看当前图片后再确认。	This view has changed. Inspect the current image before confirming.
+当前头发已更换，请重新准备拆分任务。	The hair has changed. Prepare a new separation task.
+任务使用的头发已更换，请重新创建任务。	The task's hair input has changed. Create a new task.
+任务的整头粗模已更换。请用当前四视图重新创建任务。	The task's full model has changed. Create a new task using the current four views.
+所用的四视图已更换或撤回确认，请重新创建任务。	The four views have changed or lost approval. Create a new task.
+四视图请求已失效。请从当前原图重新创建请求。	The view request is no longer current. Create a new request from the current source image.
+这个补图任务已失效或该视图已登记。	The view task is no longer current, or this view is already registered.
+拆分任务已失效，请检查当前粗模。	The separation task is no longer current. Check the rough model.
+拆分任务已失效。请在当前粗模上重新创建请求。	The separation request is no longer current. Create a new request for the current model.
+生成与拆分任务已失效。请用当前四视图重新创建任务。	The generation/separation task is no longer current. Recreate it using the current four views.
+粗模任务已失效，请检查当前参考图和模型。	The rough-model task is no longer current. Check the references and model.
+这个部件已登记。请上传手动替换或新建拆分任务。	This part is already registered. Upload a manual replacement or create a new separation task.
+这份文件已登记，若需更换请准备一条新的粗模任务。	This file is already registered. Prepare a new rough-model task to replace it.
+请先添加一张原图，再选择要补齐的视图。	Add a source image before choosing views to complete.
+请选择需要补齐或重做的视图。	Choose the views to complete or regenerate.
+生成粗模需要四张已确认的参考图。	Rough-model generation requires four approved references.
+请在「粗模与拆分」准备一条粗模生成与拆分任务。	Prepare a task in Rough model and separation.
+请重启 HairBridge Studio 服务以启用初稿对照。	Restart the HairBridge Studio service to enable draft comparison.
+未输出初稿预览。	No draft preview was produced.
+初稿生成失败，可在右侧查看原因或重试。	Draft generation failed. Check the error on the right or retry.
+发束试跑需要测试2中已审核的原粗模及头发。	The strand study requires the approved original rough model and hair from Test 2.
+本轮要求	Requirements for this round:
+本轮备注	Notes for this round:
+本轮修改	Changes for this round:
+用户反馈	User feedback:
+项目文件	Project file:
+工作台	Workspace
+任务ID	TASK_ID
+网格编号校验	Mesh checksum
+选区校验	Selection checksum
+选区网格JSON绝对路径	ABSOLUTE_SELECTION_MESH_JSON_PATH
+重做方案JSON绝对路径	ABSOLUTE_REPLACEMENT_JSON_PATH
+整头粗模GLB绝对路径	ABSOLUTE_FULL_MODEL_GLB_PATH
+无发头模GLB绝对路径	ABSOLUTE_HEAD_GLB_PATH
+独立头发GLB绝对路径	ABSOLUTE_HAIR_GLB_PATH
+对应输出图片的绝对路径	ABSOLUTE_OUTPUT_IMAGE_PATH
+保留的导线ID	RETAINED_GUIDE_ID
+全局三角面编号	GLOBAL_TRIANGLE_INDEX
+发束名称	Strand name
+仍无法分离的发流	Unresolved hair flow
+方案 JSON 格式	Proposal JSON format
+登记新版供用户对照。	Register the replacement for user comparison.
+保持同一坐标系。仅处理此任务的输入。	Keep the same coordinate frame. Process only this task's inputs.
+用本项目已确认的四视图，左右以角色自身为准。	Use this project's approved four views. Left and right refer to the character's own sides.
+先导出任务网格，检查发梢和斜视角。为每条新增或重画导线提供 3–5 个沿发片排列的 3D 锚点。可以保留走向正确的候选。记录仍无法分离的发流。	Export the task mesh first. Inspect tips and oblique views. Supply 3–5 ordered 3D anchors for every new or redrawn guide. Retain candidates whose flow is correct and record unresolved areas.
+请按完整发片和发流为这份已审核的独立头发提出分区。左右以角色自身为准，跨区的长束尽量完整归入一个区块。可新增或删去不适用的区域。	Suggest regions for this reviewed separate hair mesh based on complete strands and flow. Left and right are the character's own sides. Keep long cross-region strands intact where possible. Add or remove regions as appropriate.
+请在 HairBridge Studio 用原图补齐发型参考图。	Complete the hairstyle reference views from the source image in HairBridge Studio.
+请在 HairBridge Studio 为当前项目拟合发束主导线。	Fit the main hair guides for the current HairBridge Studio project.
+用头发网格识别发束区域和走向。用头皮核对发根贴合与穿插，保留卷发和翘起发梢的离头弧度。	Use the hair mesh to identify strands and flow. Use the head to check root contact and intersections, preserving lifted curls and tips.
+生成前核对当前清单和用户已确认的版本。沿用粗模的坐标、比例和朝向。先拟合走向明确的主束，核对发根、发梢和扎点，再估计宽厚。	Before generating, verify the current manifest and approved version. Retain the rough model's coordinates, scale and orientation. Fit clearly defined main strands first, check roots, tips and tie points, then estimate width and thickness.
+每张只画一个视角，保持同一角色、同一发型、发饰、分缝和不对称细节。统一头颈构图、正交机位、比例、光线和中性背景。补全看不见的发面时保留符合原图发流的结构。	Generate one view per image. Preserve the same character, hairstyle, accessories, parting and asymmetric details. Match head-and-neck framing, orthographic cameras, scale, lighting and a neutral background. Infer hidden hair surfaces consistently with the source flow.
+只登记此任务的视图，交回工作台供用户逐张确认。	Register only the views requested by this task, then return them for individual user approval.
+已存视图供保持一致	Existing views for consistency
+在生成前确认任务和原图仍有效。PowerShell 中设置	Before generating, verify that the task and source image are still current. In PowerShell, set
+完成后按视图分别保存图片，再登记	Save each completed view separately, then register it:
+先在 PowerShell 设置	First, in PowerShell, set
+在 PowerShell 设置	In PowerShell, set
+再核对请求	then verify the request:
+再运行	then run
+三份 GLB 回填后交由用户叠加确认，再进入导线生成。	Return the three GLBs for user overlay approval before creating guides.
+逐个检查头皮和发型。选择头顶到后颈弧度自然，且刘海、两鬓、发际线、马尾扎点与尖梢保留完整的同一个候选。	Inspect each candidate's head and hair. Choose one with a natural crown-to-nape contour and intact fringe, side locks, hairline, ponytail tie point and tips.
+为同一候选保存拆分前的整头粗模 GLB，再分别导出无发头模和独立头发 GLB，含内嵌资源。三份沿用该候选的原点、比例和朝向，保持在同一坐标系。独立部件沿用原位置，无需跨模型配准。	Save the full candidate before separation, then export head and hair GLBs with embedded resources. Keep the same origin, scale and orientation for all three. Preserve the parts' original positions; do not register separate models against each other.
+叠加检查发际线、耳后和后颈的贴合，核对眼眶与颈底开口。若该候选缺头皮或发束不完整，就检查本批其他候选。只有同一候选的三份文件齐全且可叠加时才登记，并记录选中的编号与缺项。	Overlay the parts to check the hairline, behind the ears, nape, eye sockets and neck opening. If the head surface or strands are incomplete, inspect another candidate in the batch. Register only a complete, aligned set from one candidate, and record its index and any remaining omissions.
+从选中的候选分出无发头模和整套独立头发。优先识别原网格连通部件，必要时用 Custom · By Part。可用提示 “Separate the complete hairstyle	Separate the head and complete hairstyle from the chosen candidate. Prefer existing connected components; use Custom · By Part if needed. Suggested prompt: “Separate the complete hairstyle
+在用户已登录的 Tripo Studio 选择 Private、Smart Mesh P2	In the user's signed-in Tripo Studio, select Private, Smart Mesh P2
+和 Quad New，目标每个 25	and Quad New, targeting 25
+面，在已授权范围内提交一批四个带发候选。保留原始 FBX、实际面数和候选编号。	faces per candidate. Submit one batch of four candidates within the user's authorised scope. Keep the original FBX, actual face counts and candidate indices.
+在 Tripo Studio 生成并拆分一批粗模候选。	generate and separate a batch of rough-model candidates in Tripo Studio.
+请为 HairBridge 项目	For HairBridge project
+一批候选，交回同一候选的三份 GLB。	One batch; return three GLBs from one candidate.
+保持同一坐标系	Keep the same coordinate frame
+位置使用 GLB 的坐标。交回用户导入并确认发流。	Use GLB coordinates for positions. Return the result for guide import and flow approval.
+请保存 HairBridge 可导入的导线 JSON，采用 HairDeck cards 数组。每束包含 shape（square 或 triangle）和 seq。每个采样点为	Save importable guide JSON as a HairDeck cards array. Each strand has shape (square or triangle) and seq. Each sample is
+解压整个项目包。在 Blender 安装 HairBridge Studio 后，从 HairBridge 面板载入 project	Extract the complete project package. Install HairBridge Studio in Blender, then load project
+保留 assets 文件夹。SHP 与 Surface Hair Curve Tool 需单独安装。	Keep the assets folder beside the manifest. Install SHP and Surface Hair Curve Tool separately.
+张	 images
+束	 strands
+条	 entries
+段	 segments
+个点	 points
+个选中面	 selected faces
+个采样点	 samples
+个区块	 regions
+个粗模面待辨认。	 rough-model faces need review.
+面，减选	 faces; remove
+面。	 faces.
+本组勾选	Selected in this group:
+已准备	Prepared
+已备齐	Ready:
+已拟合	Fitted
+已按粗模拟合	Fitted to rough model:
+已放置	Placed
+已测量	Measured
+已载入	Loaded
+待补	Missing
+待辨认面	Unresolved faces:
+待辨认	Unresolved
+当前区块	Current region
+当前	Current
+建议补选	Suggested additions:
+本区已拟合	Guides fitted in this region:
+新版有	Replacement contains
+现有自动导线	Existing suggested guides:
+生成勾选的	Build selected
+另有	Also
+还有	Remaining:
+经过点	Intermediate point
+数值	 value
+版本	Version
+路径	Path
+项目	Project
+任务	Task
+头发	Hair
+粗模	Rough model
+对照	Compare
+精修	Refinement
+补线点	Guide point
+补线	Extra guide
+青色或黄色	cyan or yellow
+青色	cyan
+无	None
+与已登记的文件不同。请使用同一 P2	Differs from the registered file. Use the original file from the same P2
+个点。可以换视角、拖动编号。确认前检查 1 号是起点，末点是发梢。	 points. Change views and drag numbered points as needed. Before confirming, check that point 1 is the start and the last point is the tip.
+之间的数值。例如 3 或 300%。	. For example, 3 or 300%.
+候选的原文件，或新建任务更换候选。	candidate, or create a new task to replace it.
+先上传原图	Upload source image first
+先上传粗模	Upload rough model first
+准备 P2	Prepare P2
+准备区块导线任务	Prepared region guide task
+准备无发头模任务	Prepare head separation task
+准备重做导线任务	Prepared replacement-guide task
+区块已确认。请选择下一组。	Region confirmed. Choose the next group.
+发束确认进度	Strand review progress
+发流试跑	Hair-flow study
+发片生成	Build hair geometry
+发面上。遮住时可以换个角度。	hair surface. Change the view if it is obscured.
+取消重做导线	Cancelled guide replacement
+同机位修改前	Before editing · Same camera
+四视图和	four reference views and
+在 Blender 阶段生成发片结果。	Build the hair geometry in the Blender stage.
+在本机推理。粗模生成与拆分由 Tripo Studio 和 agent 协作完成。请在工作台叠加审核同一候选的头模和头发。	runs locally. Tripo Studio and the agent generate and separate rough models. Review the head and hair from one candidate as an overlay in the workspace.
+复核 Tripo 粗模与拟合初稿	Review Tripo model and fitted draft
+复用此前的 Rain HairDeck 输出；本次没有重新推理或调用 Tripo。待用户审核。	Reused a saved Rain HairDeck output; no new inference or Tripo call was made. Awaiting user review.
+导入已有粗模 GLB。	Import an existing rough-model GLB.
+将	Move
+已就绪。	is ready.
+已载入此前保存的 Rain HairDeck 成果。	Loaded the previously saved Rain HairDeck result.
+已选整头粗模作为导线参考。准备阶段完成。	The full rough model is selected as the guide reference. Preparation is complete.
+带发粗模	Rough model with hair
+建立 Rain 试跑项目	Created Rain study project
+当前方案尚未生成，可与上一次 SHP 结果对照。	The current proposal has not been built. Compare it with the last SHP result.
+当前是原始四点截面。可以调整宽度、厚度和圆润度。	This is the original four-point section. Adjust width, thickness and roundness as needed.
+拖动线上的菱形，调整	Drag the diamond on the line to adjust
+指定本机路径。	Specify a local path.
+按粗模拟合截面	Fit sections to rough model
+撤销选区修改	Undo selection edit
+收到 P2	Received P2
+收到区块导线	Received region guides
+收到头模和头发 GLB 后，在工作台叠加检查。	After receiving the head and hair GLBs, review their overlay in the workspace.
+收到无发头模后，和已有头发叠加检查。	Overlay the returned head with the existing hair and check the fit.
+收到粗模与拆分结果	Received rough model and separated parts
+收到粗模部件	Received rough-model part
+收到自动分区建议	Received region suggestions
+收到补图	Received reference view
+收到重做导线	Received replacement guides
+放在可见的	Place it on visible
+数据无效。	Invalid data.
+整头粗模，检查头顶、后脑、刘海和马尾。叠加查看发际线、耳后和后颈的贴合。	full rough model. Inspect the crown, back, fringe and ponytail, then overlay to check the hairline, ears and nape.
+文件。	file.
+文件路径」，例如 front	FILE_PATH”, for example front
+无法请求本机工作台	Cannot reach the local workspace
+未配置。请编辑 local-config	is not configured. Edit local-config
+束 · 共勾选	 strands · Total selected:
+束已生成	 strands built
+束截面。	 strand sections.
+束拟合导线。可切换粗模和导线，检查耳上、额前和扎点。	 fitted guides. Switch between the rough model and guides to inspect the ears, forehead and tie point.
+束样本不足，沿用当前截面。	 strands have insufficient samples; their current sections are retained.
+束；等待用户审核。	 strands; awaiting user review.
+条候选导线	 candidate guides
+条手动补线	 manually drawn guides
+检查已上传的粗模	Inspect uploaded rough model
+此 P2	This P2
+段弧度	 segment curvature
+段的弧度。	 segment curvature.
+沿现有根梢方向	Follow the existing root-to-tip direction
+添加素材	Added asset
+登记 Tripo 结果	Registered Tripo result
+登记拆分部件	Registered separated part
+登记闭合测量粗模	Registered closed measurement mesh
+登记	Register
+的 HairDeck 候选与当前点位不匹配，请选标记后版本。	: the HairDeck candidate does not match these points. Use the marked version.
+的分段弧度无效。	: invalid segment curvature.
+的发束导线。沿根到梢拟合，在当前确认面内估计宽度、厚度和朝向。记录选区未覆盖或暂时无法分离的发流。	 hair guides. Fit root to tip and estimate width, thickness and orientation within the confirmed faces. Record uncovered or unresolved flow.
+的发流确认。	 flow review.
+的可拖范围无效。	: invalid movement area.
+的可移动发面。	 allowed movement surface.
+的末端未找到可内嵌的头皮，请检查端点或减小深度。	: no valid scalp surface was found for the end inset. Check the endpoint or reduce depth.
+的标记和预览。	 markings and preview.
+的网格数据不完整。	: incomplete mesh data.
+确认勾选发束	Confirmed selected strands
+移除「	Remove “
+粗模任务完成后，这里会显示整头粗模及拆分结果。	The full rough model and separated parts will appear here when the task finishes.
+粗模已对齐。紫线为拟合导线，虚线为原始发流标记。	The rough model is aligned. Purple lines are fitted guides; dashed lines are the original flow markings.
+试跑使用已保存的四视图、粗模和导线。	The study uses saved reference views, rough model and guides.
+请为本次请求的每个视图提供一次「视图	Supply one “VIEW
+请为每个部件至多提供一次文件路径。可用参数为	Supply at most one path per part. Available arguments:
+请先在粗模上确认「	First confirm “
+请在发片上标记	Mark the strand surface
+请在普通项目中生成 HairDeck 导线。	Generate HairDeck guides in a standard project.
+请把「	Move “
+请拟合「	Fit guides for “
+请提供 JSON 文件的绝对路径。	Provide the absolute path to a JSON file.
+请查看并确认当前整头粗模、头模和头发。	Inspect and approve the current full model, head and hair.
+请检查	Check
+请求有效时可以重试同一命令，已登记的视图会跳过。	Retry the same command while the request is current. Already registered views are skipped.
+请求有效时可以重试，已登记的部件会跳过。	Retry while the request is current. Already registered parts are skipped.
+请补齐并审核：	Complete and approve:
+请输入 0% 到	Enter a value from 0% to
+请重新辨认「	Re-identify “
+调整	Adjust
+载入四视图、已对齐的 Tripo 粗模、发流标记和两束导线初稿，等待人工确认。	Loaded four reference views, the aligned Tripo model, flow markings and two draft guides for user approval.
+选区内的各束发流。依据粗模、四视图和已确认网格选区，沿完整发片从根到梢布置新的导线。	 hair flow within the selection. Use the rough model, four references and confirmed faces to place complete root-to-tip guides.
+选择调整的发束	Choose strand to adjust
+采用重做导线	Adopted replacement guides
+需要指向本机工作台，例如 http	Must point to the local workspace, for example http
+青色是「	Cyan shows “
+项目包含已对齐的粗模、发流标记和	Project includes an aligned rough model, flow markings and
+项目已准备，请先确认四视图。	Project ready. Approve the four reference views first.
+束导线	 guides
+束已拟合	 fitted guides
+束待审核	 strands awaiting review
+束待确认。	 strands awaiting confirmation.
+束已生成	 strands built
+束。	 strands.
+HairDeck 初稿对照	HairDeck draft comparison
+后脑七束联合截面拟合	Seven-strand back-of-head joint section fit
+后脑截面精修	Back-of-head section refinement
+后脑贴头皮端内嵌	Back-of-head scalp-end inset
+粗模拟合截面	Sections fitted to rough model
+后脑七束 UV 截面趋势拟合	Seven-strand back-of-head UV section trend fit
+扎点下方多束贴合并被马尾根部遮住，无法从粗模可靠分离各束更靠内的根段。	Below the tie point, several strands merge and are hidden by the ponytail root. The rough model cannot reliably separate their inner root sections.

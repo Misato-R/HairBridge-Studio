@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HairBridge Studio · 发型工作台</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/point-flow.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three.module.js"}}</script>
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="/" class="brand"><span class="brand-mark">h<span>↝</span></span><span>HairBridge <b>Studio</b></span></a>
+    <span class="project-name" id="projectName">发型工作台</span>
+    <div class="top-actions"><div class="language-switch" role="group" aria-label="Language / 语言"><button type="button" data-language="zh" aria-pressed="false">中文</button><button type="button" data-language="en" aria-pressed="true" class="active">English</button></div><span id="saved" class="saved">本地项目</span><button id="saveProject" class="quiet" disabled>保存项目包</button></div>
+  </header>
+  <main id="welcome" class="welcome">
+    <div class="welcome-copy"><span class="eyebrow">FROM A REFERENCE TO EDITABLE HAIR</span><h1>把生成的发型，<br>变成你的作品。</h1><p>从一张图片或已有 Tripo 粗模开始，<br>在 Blender 中继续塑造发型。</p><div class="welcome-buttons"><button class="primary" id="newProject">新建发型项目</button><button id="rainTripoProject">新建 Rain Tripo 试跑</button><button id="demoProject">载入 Rain HairDeck 示例</button></div><p class="subtle">Rain 试跑使用已保存的四视图、粗模和导线。</p></div>
+    <div class="welcome-art" aria-hidden="true"><svg viewBox="0 0 430 440"><defs><linearGradient id="hair" x2="1" y2="1"><stop stop-color="#bd9cf8"/><stop offset="1" stop-color="#665099"/></linearGradient></defs><g fill="none" stroke="url(#hair)" stroke-width="3" stroke-linecap="round"><path d="M140 356C24 178 100 36 245 67S406 270 311 372"/><path d="M146 350C75 174 132 65 238 79S358 265 300 367"/><path d="M154 346C118 163 152 84 232 89S330 247 287 365"/><path d="M163 344C151 188 169 100 228 99S306 236 276 357"/><path d="M173 334C184 175 186 114 225 111S285 221 263 349"/><path d="M132 317C31 146 154 10 272 95S388 320 307 333"/><path d="M121 289C57 112 159 36 275 111S366 286 309 321"/><path d="M192 330C233 242 191 151 229 127S273 216 247 340"/></g><g fill="#e1d3ff"><circle cx="140" cy="356" r="5"/><circle cx="245" cy="67" r="5"/><circle cx="311" cy="372" r="5"/><circle cx="228" cy="99" r="5"/><circle cx="276" cy="357" r="5"/></g></svg><span>生成 · 审核 · 塑形</span></div>
+    <section class="recent"><h2>继续项目</h2><div id="recentProjects" class="recent-grid"></div></section>
+  </main>
+  <div id="workspace" class="workspace" hidden>
+    <nav class="steps" aria-label="制作阶段" id="steps"></nav>
+    <div class="editor-grid">
+      <aside class="left-pane"><div class="pane-heading"><h2>项目素材</h2><button class="icon-button" id="homeButton" title="返回项目列表" aria-label="返回项目列表">⌂</button></div><div id="referencePanel"></div><div class="section-label" id="geometryHeading">素材与来源</div><div id="assetList"></div><button id="uploadModel" class="full">导入粗模 GLB</button><button id="uploadCards" class="full quiet">导入已有导线 JSON</button><div class="section-label">运行环境</div><div id="capabilities" class="capabilities"></div><a href="/api/addon" class="download-addon">下载 Blender 插件 ZIP</a><p class="subtle">SHP 与 Surface Hair Curve Tool 需在 Blender 中单独安装。</p></aside>
+      <section class="viewport-pane">
+        <div class="viewport-header">
+          <div><span class="eyebrow">REVIEW YOUR HAIRSTYLE</span><h1 id="stageTitle">发流确认</h1></div>
+          <div class="view-tabs" id="previewTabs" role="group" aria-label="预览内容" hidden>
+            <button data-view="guides" class="active">导线</button><button data-view="draft">HairDeck 初稿</button><button data-view="hairdeck" hidden>HairDeck 初稿</button><button data-view="coarse">整头粗模</button>
+            <button data-view="head" hidden>无发头模</button><button data-view="hair" hidden>独立头发</button><button data-view="parts" hidden>叠加</button><button data-view="result">发片结果</button>
+          </div>
+        </div>
+        <section class="reference-gallery" id="referenceGallery" aria-label="参考图对照" hidden></section>
+        <div id="threeDPreview" hidden>
+        <section class="compare-panel hairdeck-preview-panel" id="hairdeckPreviewPanel" aria-label="HairDeck 初稿对照" hidden>
+          <button class="quiet" id="generateHairDeckPreview" type="button" aria-describedby="hairdeckPreviewHelp">生成 HairDeck 初稿</button>
+          <div>
+            <p class="subtle" id="hairdeckPreviewHelp">HairDeck 只使用一张参考图。发束走向、覆盖与体积可能和 Tripo 粗模差异较大，初稿仅供对照。</p>
+            <p class="subtle" id="hairdeckPreviewStatus" role="status" hidden></p>
+          </div>
+        </section>
+        <div class="viewport" id="viewport">
+          <canvas id="scene" aria-label="可旋转的发型三维预览"></canvas>
+          <div class="point-pins" id="pointPins" hidden></div>
+          <div class="viewport-badge" id="previewBadge">等待参考图与导线</div>
+          <div class="viewport-overlay-toggle" id="referenceCompareControl" role="group" aria-label="粗模对照" hidden>
+            <div><span>粗模对照</span>
+              <button id="referenceSplit" type="button" aria-pressed="false">并排</button>
+              <button id="referenceOverlay" type="button" aria-pressed="false">染色叠加</button>
+            </div>
+            <label id="referenceOpacityControl" hidden>粗模不透明度
+              <input id="referenceOpacity" type="range" min="0" max="100" value="24">
+              <output id="referenceOpacityValue" for="referenceOpacity">24%</output>
+            </label>
+          </div>
+          <div class="viewport-badge viewport-split-badge" id="splitResultBadge" hidden></div>
+          <div class="viewport-empty" id="viewportEmpty">添加参考图，开始一个发型项目。</div>
+          <div class="camera-bar" role="group" aria-label="统一机位">
+            <button data-camera="front">正面</button><button data-camera="back">背面</button><button data-camera="left">左面</button><button data-camera="right">右面</button><button data-camera="top">顶部</button><button data-camera="bottom">底部</button><button data-camera="input">前三分之四</button><button data-camera="fit" aria-label="自由视角">自由</button>
+          </div>
+          <div class="viewport-help" id="viewportHelp"></div>
+        </div>
+        <div class="selection-bar" id="selectionBar">
+          <span id="selectionText">尚未选择发束</span>
+          <div class="selection-controls">
+            <label id="regionControl" hidden>区域 <select id="strandRegion" aria-label="按区域筛选"></select></label>
+            <label>发束 <select id="strandSelect" aria-label="选择发束"><option value="-1">全部</option></select></label>
+          </div>
+        </div>
+        <div class="view-options" id="viewOptions" hidden>
+          <label><input type="checkbox" id="showAll" checked>显示全部</label>
+          <label id="neighborControl" hidden><input type="checkbox" id="showNeighbors">带上邻束</label>
+          <label id="coarseOverlayControl" hidden><input type="checkbox" id="coarseOverlay" checked>叠加对齐粗模</label>
+          <label id="markOverlayControl" hidden><input type="checkbox" id="markOverlay" checked>显示发流标记</label>
+          <span id="endpointLegend" hidden><i class="point root"></i>发根 <i class="point tip"></i>发梢</span>
+          <span id="markLegend" hidden><i class="mark-line"></i>原始标记</span>
+        </div>
+        <section class="compare-panel" id="comparePanel" hidden aria-label="同机位版本预览">
+          <div class="comparison-controls">
+            <button id="viewBefore" aria-pressed="false">修改前</button><button id="viewAfter" aria-pressed="true">当前结果</button>
+            <button id="viewSectionBaseline" type="button" aria-pressed="false" hidden>原参数 SHP</button>
+            <button class="quiet" id="showSectionEditor" type="button" hidden>调整截面</button>
+            <label for="beforeVersion">前版本</label><select id="beforeVersion"></select>
+          </div>
+          <p id="comparisonText" class="subtle"></p>
+        </section>
+        </div>
+        <section class="history-panel"><div class="pane-heading"><h2>开发与审核记录</h2><span id="historyCount" class="subtle"></span></div><div id="historyList"></div></section>
+      </section>
+      <aside class="right-pane">
+        <div class="pane-heading"><h2>当前步骤</h2><span id="stageStatus" class="status-pill">待审核</span></div>
+        <div id="stageActions"></div>
+        <section class="section-editor" id="sectionEditor" hidden aria-labelledby="sectionTitle"></section>
+        <section id="jobPanel" class="job-panel" hidden></section>
+        <div class="notes-box"><label for="reviewNote">审核备注</label><textarea id="reviewNote" rows="3" placeholder="例如：侧面露缝需修正，刘海走向保留。"></textarea><button id="saveNote" class="quiet full">记录观察</button></div>
+        <details class="boundary"><summary>当前版本的范围</summary><p>HairDeck 在本机推理。粗模生成与拆分由 Tripo Studio 和 agent 协作完成。请在工作台叠加审核同一候选的头模和头发。</p></details>
+      </aside>
+    </div>
+  </div>
+  <input type="file" id="fileInput" hidden>
+  <dialog id="newDialog" aria-labelledby="newDialogTitle">
+    <form id="newForm">
+      <h2 id="newDialogTitle">新建发型项目</h2>
+      <label for="newName">项目名称</label>
+      <input id="newName" maxlength="80" value="我的发型" required>
+      <div class="entry-choices" role="group" aria-label="选择项目入口">
+        <button type="submit" name="entryMode" value="image" id="entryImage"><strong>从一张图片开始</strong><span>上传原图，再补齐四视图。</span></button>
+        <button type="submit" name="entryMode" value="coarse" id="entryCoarse"><strong>从已有 Tripo 粗模开始</strong><span>上传并预览 GLB 文件。</span></button>
+      </div>
+      <div class="dialog-actions"><button type="button" id="closeDialog">取消</button></div>
+    </form>
+  </dialog>
+  <dialog id="referenceTaskDialog"><h2>补全四视图</h2><p>把这条补图任务发到当前 Codex 对话。收到图片后，在工作台里逐张检查和确认。</p><textarea id="referenceTaskMessage" rows="10" readonly aria-label="四视图补图任务"></textarea><div class="dialog-actions"><button id="copyReferenceTask" class="primary">复制补图任务</button><button id="closeReferenceTask">关闭</button></div></dialog>
+  <dialog id="referencePreviewDialog" class="reference-preview-dialog"><h2 id="referencePreviewTitle"></h2><img id="referencePreviewImage" alt=""><div class="dialog-actions"><button id="closeReferencePreview">关闭</button></div></dialog>
+  <dialog id="studioDialog" aria-labelledby="studioDialogTitle">
+    <h2 id="studioDialogTitle">粗模生成与拆分任务</h2>
+    <ol class="studio-steps">
+      <li id="studioSignIn">未登录？点「打开 Tripo Studio」登录自己的账号。若 agent 使用另一个浏览器，请在它打开的页面登录。</li>
+      <li>点「复制给 agent」，把任务粘贴到当前 Codex 对话。</li>
+      <li>agent 用四视图生成一批候选，从同一个候选回填整头粗模、无发头模和独立头发。</li>
+      <li>在「粗模与拆分」页叠加审核。确认头模和头发后进入导线生成。</li>
+    </ol>
+    <textarea id="studioMessage" rows="8" readonly aria-label="粗模生成与拆分任务内容"></textarea>
+    <div class="dialog-actions">
+      <a href="https://studio.tripo3d.ai/" target="_blank" rel="noreferrer" class="button" aria-describedby="studioSignIn">打开 Tripo Studio</a>
+      <button id="copyStudio" class="primary">复制给 agent</button>
+      <button id="closeStudio">关闭</button>
+    </div>
+  </dialog>
+  <dialog id="coarseTaskDialog" aria-labelledby="coarseTaskTitle">
+    <h2 id="coarseTaskTitle"></h2>
+    <p id="coarseTaskHelp"></p>
+    <textarea id="coarseTaskMessage" rows="8" readonly aria-label="交给 Codex 的任务内容"></textarea>
+    <div class="dialog-actions">
+      <a id="coarseTaskStudio" href="https://studio.tripo3d.ai/" target="_blank" rel="noreferrer" class="button" hidden>打开 Tripo Studio</a>
+      <button id="copyCoarseTask" class="primary">复制给 agent</button>
+      <button id="closeCoarseTask">关闭</button>
+    </div>
+  </dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

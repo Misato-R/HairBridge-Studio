@@ -1,0 +1,67 @@
+[
+  {
+    "file": "rain-reference-comparison.png",
+    "source": "assignment/A2_Hair_Bridge/rain_v3/mesh_reference/comparison.png",
+    "sha256": "c3787f89633ba392394294f3dcacb457d5433935c3d2a6b731eb9a4645ea0b1e"
+  },
+  {
+    "file": "rain-reference-metrics.json",
+    "source": "assignment/A2_Hair_Bridge/rain_v3/mesh_reference/metrics.json",
+    "sha256": "6e9874dd6def6118dc7fb7c130578ed76b4a33947511c7fb9ef75e0baf8677f3"
+  },
+  {
+    "file": "s-curl-comparison.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/test2_p2_5242eb50/hybrid_side_flows/curl/shp-comparison.png",
+    "sha256": "b3420c065ca28b8694b1c21d18e031b9c54e7d97368f6e3b6744778850888aa7"
+  },
+  {
+    "file": "region-cleanup-before.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/reg_FCvwD7/03b-cleanup-before.png",
+    "sha256": "dfafdcd99461211c44afa8e3b675d2afa8ff7a917fd6900db30ee9a3e1faa99b"
+  },
+  {
+    "file": "region-cleanup-after.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/reg_FCvwD7/03c-cleanup-after.png",
+    "sha256": "a019b528f1f1ec6cda38fa0c7161fc92f1c653028834f666d71abbb11e8a8093"
+  },
+  {
+    "file": "region-regression.json",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/reg_FCvwD7/verification.json",
+    "sha256": "5748cc90ff53e4b703bb2ae1dde9b02fcbc4bd45a4a387fa8b553d6df14dbc2e"
+  },
+  {
+    "file": "refit-seven-guides.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/back_refit_321ffb95/guide_review.png",
+    "sha256": "b81c7c35b0a5048b539c1f6954776809070f76b44aafb9f484751d53c137c6c4"
+  },
+  {
+    "file": "refit-controls.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/back_refit_321ffb95/controls_before.png",
+    "sha256": "b98d3e8f0e8f60e8b45c4324ee58e102463721fd7116a73519cb26b12887fbec"
+  },
+  {
+    "file": "uv-section-comparison.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/back_refit_321ffb95/test2_uv_section_comparison.png",
+    "sha256": "5fe63347738da88cddbdfbc044ba1f8f766b79b78ca2173f53e7c931165b67d7"
+  },
+  {
+    "file": "uv-section-metrics.json",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/back_refit_321ffb95/test2_uv_section_metrics.json",
+    "sha256": "dfe88acb070ac9980c226d3f5da82d6bfd3a49b1a7e3e2babf2984b9cbcf70ea"
+  },
+  {
+    "file": "section-controls.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/test2_p2_5242eb50/hybrid_side_flows/studio_qa_70MTWG/05-section-controls.png",
+    "sha256": "f7ece4c82be8dbf91c90ee72ca0eaf72e47a9781e50f2306c03c8d534e453967"
+  },
+  {
+    "file": "section-result.png",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/test2_p2_5242eb50/hybrid_side_flows/studio_qa_70MTWG/06-section-shp.png",
+    "sha256": "a70fb5b6d168cfa1482bcadc2cbc59e9e3c08eacf1b3207797dcecef123571f3"
+  },
+  {
+    "file": "earlier-workflow-verification.json",
+    "source": "assignment/A2_Hair_Bridge/experiments/rain_v3_studio_trial/workflow_verification.json",
+    "sha256": "d86eaceb9f94f5a8991ea3693d2252b6f1482e8a1c07667fee8cbe5aa4f44190"
+  }
+]

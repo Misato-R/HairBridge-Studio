@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "addons": [
+    {
+      "module": "hairbridge_studio",
+      "version": "0.1.1",
+      "file": "hairbridge_studio.zip",
+      "sha256": "2b1e18395d531621fc942c647ccde002c44692ab3462797c08413915432f66f2",
+      "bytes": 59631,
+      "files": 9
+    },
+    {
+      "module": "surface_hair_curve_tool",
+      "version": "0.1.0",
+      "file": "surface_hair_curve_tool.zip",
+      "sha256": "29822223e7a26d96519e715d42027997addffcb02185a44f05ca2ef60c7697c5",
+      "bytes": 2459711,
+      "files": 17
+    }
+  ]
+}

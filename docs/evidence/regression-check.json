@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-25",
+  "command": "npm test",
+  "exit_code": 0,
+  "tests": 28,
+  "pass": 28,
+  "fail": 0,
+  "skipped": 0,
+  "note": "Successful rerun with local loopback HTTP access; no code changes after the sandbox EACCES failure. Not a user study.",
+  "test_file_sha256": {
+    "anchored-guide-edit.test.mjs": "a5804ac2c8f0b44d049f6df98a8deacf369dce6ce47129a8957cb8c3597a9c0d",
+    "coarse-sections.test.mjs": "1d9046a8ac4abd42110694374ea81cca32bde72030f3108d96dc68e7f7366378",
+    "scalp-inset.test.mjs": "1fe5b87598987693f05a21da668678a13a9dba33315edbb16cfead2db3a220b5",
+    "surface-mask-cleanup.test.mjs": "62d46cd9d240d09e4df6a632100594e94a1dd7718d1f6ad3f49a4b237f99fa8d",
+    "surface-refit-preview.test.mjs": "acdc3efa5ad2f7f0084a858272cc7f916b37310ecf6b5666da0b3f6a1d6a1bdf",
+    "uv-sections.test.mjs": "35fa54935e5865e31e5943e4bbf7dcc0a59d911f15090d4af01ec338fdd0bb2f",
+    "workflow.test.mjs": "131c30408dd94dcd4ea7d81d24d19d35a00b24224f043a4a3e0abc02f3553139"
+  }
+}

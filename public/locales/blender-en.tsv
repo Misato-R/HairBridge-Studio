@@ -1,0 +1,332 @@
+# Blender companion and Surface Hair Curve Tool UI vocabulary.
+ GLB 无可用的表面网格。	 GLB contains no usable surface mesh.
+ GLB 导入失败。	 GLB import failed.
+ 个控制点；	 control points; 
+ 个超出范围。检查发流与覆盖，必要时 Ctrl+Z。	 outside the distance limit. Inspect flow and coverage; use Ctrl+Z if needed.
+ 未生成可预览的发片。	 produced no previewable hair geometry.
+ 条插值曲线	 interpolated curves
+ 条曲线	 curves
+ 组导引生成 	 guide groups produced 
+Alt + 单击控制点：删除控制点	Alt-click control point: Delete point
+Ctrl + 单击线段：加入控制点	Ctrl-click segment: Insert point
+Ctrl+Shift + 单击尾部点：收缩中间点，锁定点不动	Ctrl+Shift-click tip: Contract intermediate points; locked points stay fixed
+Ctrl+Shift 单击尾点时，中间控制点向首端到尾端固定段的轴线收缩的强度	Strength for contracting intermediate points towards the axis between the root and fixed tip segment
+Ctrl+Shift 收缩时从尾端往前固定的控制点数量；0 为旧行为，滚轮三格固定最后三个点，首端始终固定	Number of tip control points kept fixed during contraction; 0 uses the earlier behaviour. The root always stays fixed.
+HUD开关	Toggle HUD
+Hair 导出	Export hair
+IK 与贴面	IK and surface constraints
+IK 吸附	IK snapping
+IK 拖动	IK dragging
+IK 拖动时向两侧传播影响的控制点数量，不按空间半径计算	Number of neighbouring control points affected by IK dragging; not a spatial radius
+IK 模式	IK mode
+IK 贴面锁定	IK surface lock
+IK 链式吸附	IK chain snapping
+IK吸附开关	Toggle IK snapping
+IK开关	Toggle IK
+IK点数减少	Decrease IK point count
+IK点数增加	Increase IK point count
+Shift + 单击尾部点：按当前强度平滑一次	Shift-click tip: Smooth once at the current strength
+Shift 单击尾点平滑曲线时使用的强度	Smoothing strength when Shift-clicking the tip
+Shift 平滑后把控制点重新投射到曲线记录的表面对象；关闭可保持空间平滑结果	Reproject points onto the recorded surface after smoothing; disable to keep the spatial smoothing result
+Surface Hair 设置未注册	Surface Hair settings are not registered
+X-Ray开关	Toggle X-Ray
+一次展开或折叠当前分组中的所有预设槽	Expand or collapse all preset slots in the current group
+中段收缩	Contract middle
+从选中曲线插值	Interpolate selected curves
+从预设库添加	Add from preset library
+从预设库载入一个或多个 Geometry Nodes 预设槽，并添加到当前分组	Load Geometry Nodes preset slots from the library into the current group
+保存到预设库	Save to preset library
+保存审核副本到项目	Return review copy to project
+保存当前分组预设栈时使用的名称	Name for saving the current group's preset stack
+保存新的 Blend 和几何预览副本，保留当前文件；工作台可下载，审核状态仍由用户决定	Save a new Blend file and geometry preview while keeping the current file; the user still decides whether to approve it
+保留根部控制点	Keep root control point
+修改器	Modifier
+修正强度	Correction strength
+关联发束 · 	Related strand · 
+减少数值	Decrease value
+分组 ID	Group ID
+分组与曲线	Groups and curves
+分组显示	Group visibility
+分组独显	Solo group
+切换分组	Switch group
+切换分组显示	Toggle group visibility
+切换分组独显	Toggle solo group
+切换吸附元素	Switch snap element
+切换完成方式	Switch finish mode
+切换绘制方式	Switch draw mode
+删上一点	Remove last point
+删除分组预设槽	Delete group preset slot
+删除当前下拉栏选中的用户 .blend/.json 预设；内置预设不会被删除	Delete the selected user .blend/.json preset; built-in presets are retained
+删除当前分组中的一个预设槽	Remove a preset slot from the current group
+删除当前分组的临时 Hair Curves 预览对象，并关闭预设	Remove the group's temporary Hair Curves preview and disable the preset
+删除曲线	Delete curve
+删除曲线分组	Delete curve group
+删除用户预设	Delete user preset
+删除选中曲线	Delete selected curves
+刷子	Brush
+刷子半径	Brush radius
+刷新当前分组预设预览	Refresh current group preview
+刷新曲线缓存	Refresh curve cache
+刷新预览后显示参数	Refresh preview to show parameters
+前置发丝点数	Hair curve resample points
+副本已保存在 	Copy saved to 
+单独导入 cards JSON	Import cards JSON separately
+厚度	Thickness
+参数缓存	Parameter cache
+参考网格	Reference mesh
+发根专用吸附的头皮网格对象	Scalp mesh used for root-only snapping
+发根吸头皮	Snap roots to scalp
+发梢厚度 / Thickness	Tip thickness
+发梢宽度 / Width	Tip width
+发片预览导出失败。	Hair geometry preview export failed.
+取消并恢复导线	Cancel and restore guide
+右键：完成当前线	Right-click: Finish current curve
+合并当前分组	Merge current group
+合并当前分组头发	Merge current group's hair
+合集	Collection
+名称	Name
+启用预设	Enable preset
+启用	Enable
+吸附目标	Snap target
+吸附元素	Snap element
+吸附开关	Toggle snapping
+吸附	Snapping
+固定已锁定的控制点，将截面沿新弧长及切向放回所选发束	Keep locked points fixed and transport sections along the edited guide's arc length and tangent
+在两条相邻导引曲线之间生成的中间曲线数量	Number of curves generated between two neighbouring guides
+在大纲视图显示头皮或头发参考	Show head or hair references in the Outliner
+增加数值	Increase value
+复制分组预设槽	Duplicate group preset slot
+复制当前分组中的一个预设槽，并尽量保留节点输入参数	Duplicate a group preset slot while preserving node input parameters where possible
+复制曲线	Duplicate curve
+复制选中曲线	Duplicate selected curves
+头皮发根吸附	Scalp root snapping
+头皮对象	Scalp object
+学习 HairBricks 的导引插值思路，在选中曲线之间生成可编辑的中间曲线	Generate editable curves between selected guides, inspired by HairBricks guide interpolation
+完成/退出	Finish / Exit
+完成后选中新曲线	Select new curve on completion
+完成当前曲线	Finish current curve
+完成方式	Finish mode
+实时更新	Live update
+实时	Live
+宽度	Width
+导引线刷选	Brush-select guides
+导引线框选	Box-select guides
+导引线视觉	Guide display
+导线变化太大，无法沿原顺序保留截面。	The guide changed too much to preserve section order.
+尾端固定档	Fixed tip points
+尾端固定	Pin tip
+尾端平滑	Smooth tip
+展开分组面板	Expand groups panel
+展开曲线面板	Expand curves panel
+展开或折叠全部预设	Expand or collapse all presets
+展开	Expand
+工作台地址需要使用本地 HTTP 服务。	The workspace URL must use local HTTP.
+工具	Tools
+左键：添加/选择/拖拽	Left-click: Add / Select / Drag
+已人工核对对齐与比例	Alignment and scale checked manually
+已修正 	Corrected 
+已基于 	Based on 
+已复制 	Duplicated 
+已确认这一束的走向，截面随导线重定位。	Strand direction confirmed; sections transported along the edited guide.
+已移入分组：	Moved to group: 
+平滑后贴面	Reproject after smoothing
+平滑强度	Smoothing strength
+开启后为当前分组生成 Hair Curves 预览对象，并挂载所选预设节点组	Create a Hair Curves preview for the current group using the selected preset node groups
+开启后拖动控制点会按控制点数量向两侧链式衰减；Shift 拖动仍可临时启用 IK	Control-point dragging propagates along neighbouring points with falloff; Shift-drag temporarily enables IK
+开启后绘制、编辑、删除、插值等提交操作会自动刷新当前分组预设预览；关闭后需要手动刷新	Refresh the group preview after drawing, editing, deleting or interpolating; disable for manual refresh
+开启后绘制每根曲线的第一个点只吸附到指定头皮对象，其余点仍使用普通吸附目标	Snap the first point of each curve to the chosen scalp; other points use the regular snap target
+开始单束走向编辑	Edit selected strand direction
+开始表面头发曲线工具	Start surface hair curve tool
+开始工具	Start tool
+开始	Start
+弯曲吸附	Handle snapping
+强度	Strength
+当前分组插件导引曲线的显示半径；修改后会同步这个分组已生成的曲线	Display radius for the group's guide curves; updates existing curves in that group
+当前分组曲线半径	Current group curve radius
+当前分组转发丝	Convert group to hair curves
+当前分组转换为 Hair Curves 前，每根发丝重采样到的点数，便于后续雕刻	Resample each strand to this point count before converting the group to Hair Curves for sculpting
+当前分组转换为发丝	Convert group to hair curves
+当前场景没有此项目的发束，请先载入项目。	This scene has no strands from this project. Load the project first.
+当前导线上有无法定位截面的退化区间。	A degenerate guide segment prevents section placement.
+当前预设槽使用的 Geometry Nodes 节点组	Geometry Nodes group used by this preset slot
+影响点数	Affected points
+循环模式	Cycle modes
+快捷键默认配置	Default shortcuts
+快捷键	Shortcuts
+性能模式	Performance mode
+恢复所选发束的上一版截面，保留当前导线	Restore the selected strand's previous sections while retaining the current guide
+截面位置与当前发束不同，请先完成这次截面修改。	Section positions differ from the current strand. Complete the section edit first.
+截面朝向	Section orientation
+截面的切向发生了急转弯，请先平顺导线。	The section tangent turns too sharply. Smooth the guide first.
+手柄与曲线编辑	Handles and curve editing
+打开本地工作台	Open local workspace
+把当前分组内的插件原生曲线合并为一个 Curve 对象，并清理源曲线	Merge the group's native curves into one Curve object and remove the source objects
+把当前分组插件曲线按前置发丝点数重采样后转换为 Hair Curves，便于后续雕刻	Resample and convert the current group's curves to Hair Curves for sculpting
+把当前分组的预设开关、实时更新和预设槽复制到其他分组	Copy the group's preset state, live update and slots to other groups
+把当前分组的预设槽、节点组和参数保存为插件根目录下的 .blend/.json 预设	Save this group's slots, node groups and parameters as .blend/.json presets in the add-on directory
+按当前分组的源曲线刷新 Hair Curves 预览，并应用预设节点组	Rebuild the Hair Curves preview from this group's source curves and apply preset node groups
+按距离限制向参考网格表面移动导线控制点；请先对齐并选择正确的头发网格	Move guide points towards the reference surface within a distance limit; align and select the correct hair mesh first
+控制点显示	Control-point display
+控制点	Control point
+插值数量	Interpolation count
+插值模式	Interpolation mode
+插值点数	Interpolated point count
+插值生成中间曲线	Interpolate intermediate curves
+插值补线	Interpolate guides
+插值贴面	Project interpolated curves to surface
+撤销工具操作	Undo tool action
+撤销最近截面调整	Undo last section adjustment
+收缩强度	Contraction strength
+数量	Count
+整体收尖	Overall taper
+新建、复制、插值生成的插件曲线圆形截面半径；设为 0 可生成无厚度曲线	Circular bevel radius for new, duplicated and interpolated curves; set 0 for guides without thickness
+新建分组	New group
+无当前分组	No active group
+无法进入此发束的编辑模式。	Cannot enter edit mode for this strand.
+显示控制点	Show control points
+显示快捷 HUD	Show shortcut HUD
+显示强度	Display intensity
+显示	Show
+智能弯曲	Smart handles
+曲线 ID	Curve ID
+曲线半径	Curve radius
+曲线对象	Curve object
+最大匹配距离	Maximum match distance
+未选中导引线和控制点的显示缩放；选中曲线保持完整大小，便于聚焦当前头发	Display scale for unselected guides and points; selected curves remain full-size
+未选中缩放	Unselected display scale
+标记为反向，请复核根梢	Marked reversed; check root and tip
+此发束的截面采样无效。	Invalid section samples for this strand.
+此发束缺少 SHP 修改器。	This strand has no SHP modifier.
+此发束缺少可编辑的 SHP 自定义截面。	This strand has no editable SHP custom section.
+此次操作需保留控制点数量。请取消后移动已有控制点。	Keep the control-point count unchanged. Cancel and move existing points instead.
+此项目已载入当前场景，避免重复导入。	This project is already loaded in the scene; duplicate import was prevented.
+每条插值曲线重采样后的控制点数量；数值越大越贴近导引曲线形状	Resampled control points per interpolated curve; higher counts follow the guides more closely
+没有可复制的曲线	No curves to duplicate
+没有可导出的发束。	No strands to export.
+没有可用分组	No available groups
+没有当前分组	No active group
+没有生成插值曲线	No interpolated curves were generated
+没有选中的曲线	No curves selected
+沿线过渡起点	Transition start along strand
+添加分组预设槽	Add group preset slot
+添加曲线分组	Add curve group
+添加预设后选择节点组	Add a preset, then choose a node group
+清除当前分组预设预览	Clear current group preview
+滚轮分组	Wheel: Group
+滚轮刷子半径	Wheel: Brush radius
+滚轮吸附	Wheel: Snapping
+滚轮尾端固定	Wheel: Fixed tip points
+滚轮平滑强度	Wheel: Smoothing strength
+滚轮收缩强度	Wheel: Contraction strength
+点大小	Point size
+点数	Point count
+状态	Status
+独显	Solo
+现有 SHP 参数改变了截面拓扑，请保留一个可校准的发束。	Current SHP parameters changed the section topology. Keep a strand that can be calibrated.
+生成参数	Generation settings
+生成插值曲线时投射回导引曲线记录的表面模型	Project interpolated curves onto the guides' recorded surface
+生成曲线半径	Generated curve radius
+用粗模修正所选导线	Correct selected guides against rough model
+目标点数	Target point count
+目标	Target
+相对当前宽厚和朝向调整所选发束，从设置的沿线位置渐变至发梢	Adjust strand width, thickness and orientation relative to the current shape, blending from the chosen position to the tip
+确认走向并重定位截面	Confirm direction and transport sections
+移入当前分组	Move to current group
+移动分组预设槽	Move group preset slot
+移动已有控制点，确认后重定位截面	Move existing points; confirm to transport the sections
+第 	Strand 
+粗模辅助修正	Rough-model surface correction
+精修副本已返回本地工作台，请在网页审核。	Refinement copy returned to the local workspace. Review it in the browser.
+素材路径不在项目文件夹内。	The asset path is outside the project directory.
+线宽	Line width
+线很多时使用合批绘制和简化未选中控制点，降低视口 UI 开销	Batch drawing and simplify unselected points to reduce viewport overhead with many curves
+绘制与吸附	Drawing and snapping
+绘制模式	Drawing mode
+绘制	Draw
+给当前分组添加一个可折叠的 Geometry Nodes 预设槽	Add a collapsible Geometry Nodes preset slot to the current group
+给当前分组预览和最终 Hair Curves 使用的 Geometry Nodes 节点组	Geometry Nodes group for this group's preview and final Hair Curves
+编辑整形	Edit shape
+编辑模式备用	Fallback edit mode
+编辑模式	Edit mode
+至少选择两条导引曲线	Select at least two guides
+节点组	Node group
+表面偏移	Surface offset
+表面吸附	Surface snapping
+表面头发曲线	Surface hair curves
+表面对象	Surface object
+衰减半径	Falloff radius
+衰减强度	Falloff strength
+视口状态	Viewport status
+设置未注册	Settings are not registered
+请先完成走向编辑，返回物体模式。	Finish the direction edit and return to Object Mode first.
+请先载入工作台项目。	Load a workspace project first.
+请关闭该发束的 SHP 自定义网格自动缩放。	Disable automatic scaling of this strand's SHP custom geometry.
+请在 3D 视图中运行	Run this in a 3D View
+请选择包含 cards 的项目；单独下载的清单需要与 assets 文件夹放在一起。	Choose a project containing cards. Keep a downloaded manifest beside its assets folder.
+请选择只有一条路径的发束。	Choose a strand containing one spline.
+调整刷子半径	Adjust brush radius
+调整发片截面	Adjust strand cross-section
+调整尾端固定点数	Adjust fixed tip point count
+调整平滑强度	Adjust smoothing strength
+调整当前分组预设槽顺序	Reorder current group preset slots
+调整收缩强度	Adjust contraction strength
+调试显示手柄	Show handles for debugging
+贴面锁定	Surface lock
+贴面	Constrain to surface
+走向编辑期间截面已变化，请先取消此次走向编辑。	Sections changed during direction editing. Cancel the direction edit first.
+转发丝点数	Hair conversion point count
+载入工作台项目	Load workspace project
+这个节点组没有暴露可调输入	This node group exposes no editable inputs
+连续绘制	Continuous drawing
+连续	Continuous
+退出工具	Exit tool
+选中新线	Select new curve
+选中	Select
+选择模式	Selection mode
+选择节点组后可调节参数	Choose a node group to edit its parameters
+透明度	Opacity
+部分节点组不在当前文件或内置库	Some node groups are missing from this file and built-in libraries
+采样间距	Sample spacing
+锁定后没有可移动的控制点。	No movable points remain after locking.
+隐藏	Hide
+隔离所选发束的编辑数据，移动该束的现有控制点	Isolate the selected strand's data to edit its existing control points
+需要一条从发根到发梢的开放 Bézier 导线。	An open root-to-tip Bézier guide is required.
+需要保留一条有长度的导线。	Keep a guide with non-zero length.
+项目素材缺失。请从工作台显示的本地项目文件夹载入。	Project assets are missing. Load from the local project folder shown in the workspace.
+预览对象	Preview object
+预设名称	Preset name
+预设库	Preset library
+预设栈应用到全部分组	Apply preset stack to all groups
+预设索引	Preset index
+预设节点组	Preset node group
+预设预览	Preset preview
+预设	Preset
+颜色	Colour
+默认参数	Default settings
+：IK 影响点数	: IK affected points
+：IK 模式 / IK 吸附	: IK mode / IK snapping
+：切吸附元素	: Switch snap element
+：切换当前分组	: Switch group
+：删除最后一点	: Delete last point
+：删除	: Delete
+：单击点/按住绘制	: Click points / Hold to draw
+：合并当前分组头发	: Merge current group's hair
+：吸附开关	: Toggle snapping
+：复制	: Duplicate
+：弯曲吸附	: Handle snapping
+：当前分组显示 / 独显	: Group visibility / Solo
+：当前分组转换为发丝	: Convert group to Hair Curves
+：循环绘制、编辑、插值、选择	: Cycle Draw, Edit, Interpolate and Select
+：快捷 HUD	: Shortcut HUD
+：插值数量	: Interpolation count
+：插值点数	: Interpolated point count
+：新建分组 / 移入当前分组	: New group / Move to current group
+：框选 / 刷选导引线	: Box-select / Brush-select guides
+：直达模式	: Direct mode
+：确认当前操作并退出工具	: Confirm current action and exit
+：调整尾端固定点数	: Adjust fixed tip point count
+：调整平滑强度	: Adjust smoothing strength
+：调整收缩强度	: Adjust contraction strength
+：贴面锁定 / 发根锁定	: Surface lock / Root lock
+：退出工具	: Exit tool
+；工作台同步失败：	; workspace sync failed: 

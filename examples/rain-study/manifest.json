@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "source": "Rain study; previously generated and reviewed sample, not new inference.",
+  "attribution": "Rain Rig (CC) Blender Foundation | studio.blender.org",
+  "source_url": "https://studio.blender.org/characters/rain/v3/",
+  "files": [
+    {
+      "file": "assets/193f2b3f-00f4-4516-88f7-5afa2b4bf24f.glb",
+      "bytes": 963388,
+      "sha256": "96c0df7b3c15770fedf958c60bf000f357a164c6e91533ffbdcb35481634c75c"
+    },
+    {
+      "file": "assets/2cfb6857-1004-4208-aca4-eb2b5dd4f329.glb",
+      "bytes": 1621492,
+      "sha256": "87a8c808c445dd25a9eeb52e1d64a3063d2a351f44c21018fe7a6231a836b695"
+    },
+    {
+      "file": "assets/3a9acd30-0744-441e-84c1-f4354d184164.glb",
+      "bytes": 1384616,
+      "sha256": "2f550723b1bfbd70837b9a27eaa9d16ae3c314db64d3dab4dca161c15332fbc8"
+    },
+    {
+      "file": "assets/a4ef47cb-eedd-4358-8007-db83ca7e6f8b.glb",
+      "bytes": 5608916,
+      "sha256": "9eca886f4941c0ddabfc2027c03aaa9db7119e7b1cee1b5ecaa203b96789deee"
+    },
+    {
+      "file": "assets/d25c5f8f-aea9-4791-a233-0d158316630e.json",
+      "bytes": 74390,
+      "sha256": "2ec961e70b7aa80205585e6303230ad0a0eb713a8cd8ab54bcc7e50dccb374e5"
+    },
+    {
+      "file": "point-flow-fixture.json",
+      "bytes": 1843388,
+      "sha256": "26e67501175ff4b88db93e20287459c51ed6bedacbd779c7948ed208cc632ede"
+    },
+    {
+      "file": "project.hairbridge",
+      "bytes": 3267277,
+      "sha256": "11fa3e95d3277a141cd084e50f3d22213a12ceed00631509652998fa7e3dda68"
+    },
+    {
+      "file": "references/back.png",
+      "bytes": 1390051,
+      "sha256": "c72e386baccd45be165426057a554f67cfdca61ccae14e0fc0380e8e306ea7ad"
+    },
+    {
+      "file": "references/front.png",
+      "bytes": 1349718,
+      "sha256": "f1986e4a8bd5e903e8f6012bffd2cf6c2749fcb8f4863feda913725899c010eb"
+    },
+    {
+      "file": "references/left.png",
+      "bytes": 1333863,
+      "sha256": "963cf098bbb79df2479f50d4bfa4fca4918962267fe40de6f5e49b6448bab427"
+    },
+    {
+      "file": "references/right.png",
+      "bytes": 1370875,
+      "sha256": "35e29873c73fe0397656f290c45497a43b2d4323c5de734c8375a8f8c5ed58ef"
+    },
+    {
+      "file": "references/source.png",
+      "bytes": 401540,
+      "sha256": "25e91547df92ca74d7c2b9c49f23c463d1c5e8a7d5afb7f62bd53531ed6314cd"
+    }
+  ]
+}
